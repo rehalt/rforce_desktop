@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLSCO - {{project}}">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="../img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="../img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="../img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="../img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/favicon-180.png">
+    <!--  <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <title>Riverbend - RForce</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="../s/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../s/simple-line-icons/css/simple-line-icons.css">
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.min.css' />
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.print.min.css' media='print' />
+    <link rel="stylesheet" type="text/css" href="../s/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/editor.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap-duallistbox.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.css" />
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap.css">
+    <!-- Main st/yles for this application -->
+    <link href="../s/css/stylev2.css" rel="stylesheet">
+    <link href="../s/css/spinkit.min.css" rel="stylesheet">
+    <!-- Styles required by this views -->
+    <link rel="stylesheet" type="text/css" href="../s/css/custom-styles.css">
+</head>
+<!-- Removed header-fixed class so that the header band renders after the logo -->
+
+<body class="app sidebar-nav sidebar-minimized aside-menu-fixed aside-menu-hidden">
+    <div id="videoDiv">
+        <div id="videoBlock" style="background-color: #006341">
+            <div id="videoLogo">
+                <img src="../s/img/riverbend-logo__home.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav navbar-nav d-md-down-none mr-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./calendar.html">Calendar</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./companies.html">Companies</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./trips.html">Trips</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./deals.html">Deals</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rmaps.html">RMaps</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./notes.html">Notes</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rdata.html">RData</a>
+            </li> 
+        </ul>
+        <ul class="nav navbar-nav ml-auto" style="font-size: 1em;">
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-bell"></i><span class="badge badge-pill badge-danger" id="hdrNotificationCount"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center" id="hdrNotificationTitle">
+                        <strong>No notifications</strong>
+                    </div>
+                    <div class="dropdown-header text-center" id="hdrNotificationContainer">
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-list"></i><span class="badge badge-pill badge-warning" id="hdrNumberOfTasks"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center"><strong>Your tasks</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="loggedUserName">
+                    <span><i class="icon-user icons"></i></span> &nbsp; &nbsp; &nbsp;
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="./logout.html"><i class="fa fa-lock"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+        <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html"><i class="fa fa-home" ></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./calendar.html"><i class="fa fa-calendar" ></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./companies.html"><i class="fa fa-building-o"></i> Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html"><i class="fa fa-address-book-o"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trips.html"><i class="fa fa-plane"></i> Trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./deals.html"><i class="fa fa-handshake-o"></i> Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rmaps.html"><i class="fa fa-map-o"></i> RMaps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./notes.html"><i class="fa fa-file-text-o"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rdata.html"><i class="fa fa-inbox"></i> RData</a>
+                      </li>          
+                </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+        </div>
+        <!-- Main content -->
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Calendar details</li>
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="#" style="font-size: 1em;" id="btnMasterSettings"><i class="icon-settings"></i> &nbsp;Settings</a>
+                    </div>
+                </li>
+            </ol>
+            <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+                <section>
+                    <p hidden id="userIsAdmin"></p>
+                    <p hidden id="loggedEmployeeId"></p>
+                    <p hidden id="enableOutlookIntegration">true</p>
+                    <input type="hidden" id="entityName" name="entityName" value="">
+                    <input type="hidden" id="entityId" name="entityId" value="">
+                    <input type="hidden" id="target" name="target" value="">
+                    <input type="hidden" id="comment" name="comment" value="">
+                    <input type="hidden" id="mailId" name="mailId" value="">                    
+                    <article>
+                        <div class="container-fluid" style="margin-top: 0px; padding-left: 0px; padding-right:0px;">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12"><span class="vc_empty_space_inner"></span></div>
+                                    <div class="col-md-12 text-center">
+                                        <button type="button" id="backToCalendar" class="calendarPageButtons" onclick="window.location.href='./calendar.html';"><i class="fa fa-calendar"></i> Back to calendar view</button>
+                                    </div>
+                                    <div class="col-md-12" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" id="panelNotesEdit">
+                            <div class="panel panel-default">
+                                <div class="panel-heading"><strong>Edit/add notes</strong></div>
+                                <div class="panel-body">
+                                    <input type="hidden" id="editNoteId" name="editNoteId" value="">
+                                    <input type="hidden" id="editNoteSourceId" name="editNoteSourceId" value="">
+                                    <div class="form-group">
+                                        <label for="editNoteType">Type:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon fa fa-arrow-right"></div>
+                                            <select id="editNoteType" name="editNoteType" class="form-control">
+                                                <option value="301">Calendar</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <label for="editNoteText">Notes:</label>
+                                    <div class="quill-editor" id="editNoteText">
+                                    </div>
+                                    <button class="btn btn-outline-secondary fa fa-microphone" type="button" id="btnNotesDictate"></button>
+                                    <div class="form-group">
+                                        <label for="voiceNoteList">Voice notes:</label>
+                                        <ul class="list-group" id="voiceNoteList">
+
+                                        </ul>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="editNoteFollowUpType">Follow up type:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon fa fa-arrow-right"></div>
+                                            <select id="editNoteFollowUpType" name="editNoteFollowUpType" class="form-control">
+                                                <option value="0">None</option>
+                                                <option value="1">Phone call</option>
+                                                <option value="2">Email</option>
+                                                <option value="3">Deliverable</option>
+                                                <option value="4">In person visit</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="editNoteFollowUpDetailsDiv">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="editNoteFollowUpEmployee">Responsible party:</label>
+                                                <div class="input-group">
+                                                    <select id="editNoteFollowUpEmployee" name="editNoteFollowUpEmployee" class="form-control" multiple data-placeholder=" " size="5">
+                                                        <!-- To be filled by js script -->
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="editNoteFollowUp">Follow up date:</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-addon fa fa-calendar"></div>
+                                                    <input type="date" class="form-control" id="editNoteFollowUp" name="editNoteFollowUp" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="editNoteAttendeeEmployee">Attending employees:</label>
+                                        <div class="input-group">
+                                            <select id="editNoteAttendeeEmployee" name="editNoteAttendeeEmployee" class="form-control" multiple data-placeholder=" " size="5">
+                                                <!-- To be filled by js script -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="editNoteAttendeeContact">Attending contacts:</label>
+                                        <div class="input-group">
+                                            <select id="editNoteAttendeeContact" name="editNoteAttendeeContact" class="form-control" multiple data-placeholder=" " size="5">
+                                                <!-- To be filled by js script -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="noteAttachmentSection">
+                                        <div class="form-group panel panel-default">
+                                            <label for="noteAttachments">Attachments:</label>
+                                            <ul class="list-group" id="noteAttachments">
+
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <form class="dropzone" id="FormDropZone" action="" method="post" encType="multipart/form-data">
+                                                <input type="hidden" id="AttachmentNoteId" name="AttachmentNoteId" value="">
+                                                <input type="hidden" id="AttachmentNoteTempPath" name="AttachmentNoteTempPath" value="">
+                                                <p class="dz-message">
+                                                    <h5 class="text-center"><br><br>Drop your files here <i class="glyphicon glyphicon-cloud-upload"></i></h5>
+                                                    <h5 class="text-center text-success" aria-hidden="true"></h5>
+                                                </p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="form-group">
+                                        <label for="editNoteWhoCreated">Created by:</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="editNoteWhoCreated" name="editNoteWhoCreated" value="" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="editNoteWhoChanged">Last updated by:</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="editNoteWhoChanged" name="editNoteWhoChanged" value="" readonly>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <button type="button" id="btnNoteSubmit" class="">Submit</button> &nbsp;
+                                            <button type="button" id="btnNoteCancel" class="">Cancel</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <button type="button" id="btnNoteDelete" class="">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" id="calendarView">
+                            <div class="row">
+                                <div class="col-md-6" style="margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelEventView">
+                                            <div class="panel-heading">
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="editMode"><i class="fa fa-edit"></i> &nbsp; Edit event details</div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="form-inline">
+                                                    <div id="alertSuccess" class="alert alert-success" role="alert">
+                                                        <strong>Success!</strong> Event was updated successfully
+                                                    </div>
+                                                    <div id="viewModeContainer">
+                                                        <!-- This will get filled later -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default" id="panelGoogleSearch">
+                                            <div class="panel-heading"><strong>Google place search</strong></div>
+                                            <div class="panel-body">
+                                                <div id="searchSpinnerDiv">
+                                                    <div style="display:block;text-align:center"><img title="saving" src="../s/img/ajax-loading.gif"></div>
+                                                </div>
+                                                <div id="searchResultDiv" style="width:100%">
+                                                    <table id="tblSearchResults" class="table-sm table-striped table-hover" style="width:100%; height:100%;">
+                                                        <thead style="width: 100%;" class="thead-dark">
+                                                            <th id="tSearchPlaceId">ID</th>
+                                                            <th id="tSearchName">Name</th>
+                                                            <th id="tSearchLat">Lat</th>
+                                                            <th id="tSearchLong">Long</th>
+                                                            <th id="tSearchAddress">Address</th>
+                                                            <th id="tSearchPhoneNumber">Phone</th>
+                                                            <th id="tSearchWebsite">Website</th>
+                                                            <th id="tSearchPlaceTypes">Place types</th>
+                                                            <th id="tSearchLocality">City</th>
+                                                        </thead>
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnSearchSelect" class="">Select</button> &nbsp;
+                                                        <button type="button" id="btnSearchCancel" class="">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default" id="panelEventEdit">
+                                            <div class="panel-heading"><strong>Edit event</strong></div>
+                                            <div class="panel-body">
+                                                <form id="FormData" action="" method="post">
+                                                    <input type="hidden" id="detailsCalendarId" name="detailsCalendarId" value="">
+                                                    <input type="hidden" id="detailsSource" name="detailsSource" value="">
+                                                    <input type="hidden" id="detailsLocationLat" name="detailsLocationLat" value="">
+                                                    <input type="hidden" id="detailsLocationLong" name="detailsLocationLong" value="">
+                                                    <div class="form-group">
+                                                        <label for="detailsTitle">Event title:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-edit"></div>
+                                                            <input type="text" class="form-control" id="detailsTitle" name="detailsTitle" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsEventType">Category:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-list"></div>
+                                                            <select id="detailsEventType" name="detailsEventType" class="form-control">
+                                                                <option selected value="1">Business development</option>
+                                                                <option value="2">Corporate</option>
+                                                                <option value="3">Event / Holiday</option>
+                                                                <option value="4">Trip</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsCompany">Internal company:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-list"></div>
+                                                            <select id="detailsCompany" name="detailsCompany" class="form-control">
+                                                                <option selected value="0">All</option>
+                                                                <!-- To be filled by js script -->
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsDepartment">Department:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-list"></div>
+                                                            <select id="detailsDepartment" name="detailsDepartment" class="form-control">
+                                                                <option selected value="0">All</option>
+                                                                <!-- To be filled by js script -->
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsExternalCompany">External company:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-list"></div>
+                                                            <select id="detailsExternalCompany" name="detailsExternalCompany" class="form-control">
+                                                                <option selected value="">Select &longrightarrow; </option>
+                                                                <!-- To be filled by js script -->
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsStartDate">Start date/time:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-calendar"></div>
+                                                            <input type="date" class="form-control" id="detailsStartDate" name="detailsStartDate" value="">
+                                                            <input type="text" class="form-control" id="detailsStartTime" name="detailsStartTime" value="">
+                                                        </div>
+                                                        <div class="input-group">
+                                                            <input class="form-check-input" type="checkbox" value="" id="detailsAllDay">
+                                                            <label class="form-check-label" for="detailsAllDay">&nbsp;&nbsp;&nbsp;&nbsp; All day event</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group" id="detailsEndDateTimeDiv">
+                                                        <label for="detailsEndDate">End date/time:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-calendar"></div>
+                                                            <input type="date" class="form-control" id="detailsEndDate" name="detailsEndDate" value="">
+                                                            <input type="text" class="form-control" id="detailsEndTime" name="detailsEndTime" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsLocationDetails">Location:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-edit"></div>
+                                                            <input type="text" class="form-control" id="detailsLocationDetails" name="detailsLocationDetails" value="">
+                                                            <div class="input-group-append">
+                                                                <button class="btn btn-outline-secondary fa fa-google" type="button" id="btnGooglePlaceSearch">&nbsp;Search</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsLocationAddress">Address:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-edit"></div>
+                                                            <input type="text" class="form-control" id="detailsLocationAddress" name="detailsLocationAddress" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="detailsLocationPhoneNumber">Phone number:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-phone"></div>
+                                                            <input type="text" class="form-control" id="detailsLocationPhoneNumber" name="detailsLocationPhoneNumber" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group" id="divAddMeAsAttendee">
+                                                        <div class="input-group">
+                                                            <input class="form-check-input" type="checkbox" value="" id="detailsAddMeAsAttendee" checked>
+                                                            <label class="form-check-label" for="detailsAddMeAsAttendee">&nbsp;&nbsp;&nbsp;&nbsp; Add me as an attendee</label>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-md">
+                                                            <button type="button" id="eventDetailsSubmit" class="">Submit</button> &nbsp;&nbsp;&nbsp;
+                                                            <button type="button" id="eventDetailsCancel" class="">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            <button type="button" id="eventDetailsDelete" class="">Delete</button>
+                                                            <br>
+                                                            <br>
+                                                            <div id="loading">
+                                                                <div style="display:block;text-align:center"><img title="saving" src="../s/img/ajax-loading.gif"></div>
+                                                            </div>
+                                                            <div id="alertError" class="alert alert-danger" role="alert">
+                                                                <strong>Error!</strong> There was a problem updating this event, please try again.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelAttendeeView">
+                                            <div class="panel-heading">
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnAddAttendee"><i class="fa fa-plus"></i> &nbsp;Edit attendee list</div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div id="attendeesContainer">
+                                                    <table id="tblAttendees" class="table-sm table-striped table-hover" style="width:100%; height:100%;">
+                                                        <thead class="thead-dark" style="text-align: center;">
+                                                            <td id="tAttendeeType"></td>
+                                                            <td id="tAttendeeName">Last name</td>
+                                                            <td id="tCompanyName">Company / email / phone</td>
+                                                            <td id="tOptional">Opt</td>
+                                                            <td id="tConfirmed">Conf</td>
+                                                            <td id="tAttended">Att</td>
+                                                        </thead>
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelAttendeeListEdit">
+                                            <div class="panel-heading"><strong>Attendee list</strong></div>
+                                            <div class="panel-body">
+                                                <div class="form-group" id="divEditAttendeeEmployee">
+                                                    <span style="float:left"><label for="editAttendeeEmployee">Employee:</label></span>
+                                                    <span style="float:right"><a href="#" id="selectAllEmployees" >Select All</a></span>
+                                                    <div class="input-group">
+                                                        <select id="editAttendeeEmployee" name="editAttendeeEmployee" class="form-control" multiple data-placeholder=" " size="5">
+                                                            <!-- To be filled by js script -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="divEditAttendeeContact">
+                                                    <label for="editAttendeeContact">Contact:</label>
+                                                    <div class="input-group">
+                                                        <select id="editAttendeeContact" name="editAttendeeContact" class="form-control" multiple data-placeholder=" " size="5">
+                                                            <!-- To be filled by js script -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnAttendeeListSubmit" class="">Submit</button> &nbsp;
+                                                        <button type="button" id="btnAttendeeListCancel" class="">Cancel</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelAttendeeEdit">
+                                            <div class="panel-heading"><strong>Edit/add attendee</strong></div>
+                                            <div class="panel-body">
+                                                <input type="hidden" id="editAttendeeId" name="editAttendeeId" value="">
+                                                <input type="hidden" id="editAttendeeTypeId" name="editAttendeeTypeId" value="">
+                                                <div class="form-group">
+                                                    <label for="editAttendeeName">Attendee:</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="editAttendeeName" name="editAttendeeName" value="" readonly>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-md-4">
+                                                        <input class="form-check-input" type="checkbox" value="" id="editAttendeeOptional">
+                                                        <label class="form-check-label" for="editAttendeeOptional">&nbsp;&nbsp;&nbsp;&nbsp; Optional</label>
+                                                    </div>
+                                                    <div class="form-group col-md-4">
+                                                        <input class="form-check-input" type="checkbox" value="" id="editAttendeeConfirmed">
+                                                        <label class="form-check-label" for="editAttendeeConfirmed">&nbsp;&nbsp;&nbsp;&nbsp; Confirmed</label>
+                                                    </div>
+                                                    <div class="form-group col-md-4">
+                                                        <input class="form-check-input" type="checkbox" value="" id="editAttendeeAttended">
+                                                        <label class="form-check-label" for="editAttendeeAttended">&nbsp;&nbsp;&nbsp;&nbsp; Attended</label>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnAttendeeSubmit" class="">Submit</button> &nbsp;
+                                                        <button type="button" id="btnAttendeeCancel" class="">Cancel</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;">
+                                    <div class="col-md-12">
+
+                                    <!-- Note attachment panel -->
+                                    <div class="panel panel-default" id="panelAttachNote" style="display:none">
+                                        <div class="panel-heading"><strong>Important</strong></div>
+                                        <div class="panel-body">
+                                            <p><big><i class="fa fa-paperclip" aria-hidden="true"></i></big> You have requested to
+                                                assign an email and/or attachments to this new Deal's notes, <a href="#"
+                                                    id="removeAttachmentNote">click here if you want to discard the note and
+                                                    attachments</a></p>
+                                        </div>
+                                    </div>
+    
+    
+                                        
+                                        <div class="panel panel-default" id="panelEventLocation">
+                                            <div class="panel-body">
+                                                <div class="form-inline">
+                                                    <div id="companyGeoMap" class="googleGeoMap">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelNotesView">
+                                            <div class="panel-heading">
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnAddNote"><i class="fa fa-plus"></i> &nbsp; New note </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div id="notesContainer">
+                                                    <table id="tblNotes" class="table-sm table-striped table-hover" style="width:100%; height:100%;">
+                                                        <thead class="thead-dark">
+                                                            <td id="tNoteId">ID</td>
+                                                            <td id="tNoteDate">Date</td>
+                                                            <td id="tNoteTypeId">TypeId</td>
+                                                            <td id="tNoteType">Type</td>
+                                                            <td id="tNotes">Notes</td>
+                                                            <td id="tFollowUp">Follow up</td>
+                                                            <td id="temail"></td>
+                                                        </thead>
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" id="panelNotesEmail">
+                                            <div class="panel-heading"><strong>Send note by email</strong></div>
+                                            <div class="panel-body">
+                                                <input type="hidden" id="emailNoteId" name="emailNoteId" value="">
+                                                <div class="form-group">
+                                                    <label for="emailNoteRecipients">Recipients:</label>
+                                                    <div class="input-group">
+                                                        <select id="emailNoteRecipients" name="emailNoteRecipients" class="form-control" multiple data-placeholder=" " size="5">
+                                                            <!-- To be filled by js script -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnNoteEmailSend" class="">Submit</button> &nbsp;
+                                                        <button type="button" id="btnNoteEmailCancel" class="">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+        <aside class="aside-menu">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+                        <i class="icon-list"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                        <i class="icon-speech"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                        <i class="icon-settings"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="timeline" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="messages" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="settings" role="tabpanel">
+                </div>
+        </aside>
+
+        </div>
+        <footer class="app-footer">
+            <span class="ml-auto">Powered by <a href="https://www.yammm.com/">Yammm</a></span>
+        </footer>
+        <!-- Enable jquery and IPC functionality -->
+        <script>
+            // This is required to enable JQuery on Electron, when NodeJS integration is enabled, and
+            // we need it for IPC
+            if (typeof module === 'object') {
+                window.module = module;
+                module = undefined;
+            }
+        </script>
+        <!-- Insert this line above script imports  -->
+        <!-- Bootstrap and necessary plugins -->
+        <script src="../s/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../s/popper/umd/popper.min.js"></script>
+        <!--<script type="text/javascript" src="/s/bootstrap/js/bootstrap.min.js"></script> -->
+        <script type="text/javascript" src="../s/bootstrap/js/bootstap.3.4.0..js"></script>
+        <script type="text/javascript" src="../s/js/jquery.datatables.min.js"></script>
+        <script type="text/javascript" src="../s/datatables/js/dataTables.select.min.js"></script>
+        <script type="text/javascript" src="../s/datatables/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="../s/datatables/js/buttons.html5.min.js"></script>
+        <script type="text/javascript" src="../s/datatables/js/buttons.print.min.js"></script>
+        <script type="text/javascript" src="../s/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="../s/js/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="../s/js/moment.min.js"></script>
+
+        <!-- Plugins and scripts required by all views -->
+        <script src="../s/js/chart.min.js"></script>
+        <!-- Template scripts -->
+        <script src="../js/app.js"></script>
+        <!-- Main scripts -->
+        <script src="../s/js/dropzone.js"></script>
+        <script src="../s/js/mic-recorder-to-mp3.js"></script>
+        <script src="../s/js/bootstrap-timepicker.js"></script>
+        <script src="../s/js/jquery-te-1.4.0.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWxcqTT827bH9usCEqGgxT6udhMO8mWdM&libraries=places"></script>
+        <script src="../js/views/calendardetails.js"></script>
+</body>
+
+</html>

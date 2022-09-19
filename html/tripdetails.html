@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLSCO - {{project}}">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="../img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="../img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="../img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="../img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/favicon-180.png">
+    <!--  <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <title>Riverbend - RForce</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="../s/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../s/simple-line-icons/css/simple-line-icons.css">
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.min.css' />
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.print.min.css' media='print' />
+    <link rel="stylesheet" type="text/css" href="../s/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/editor.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap-duallistbox.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.css" />
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap.css">
+    <!-- Main st/yles for this application -->
+    <link href="../s/css/stylev2.css" rel="stylesheet">
+    <link href="../s/css/spinkit.min.css" rel="stylesheet">
+    <!-- Styles required by this views -->
+    <link rel="stylesheet" type="text/css" href="../s/css/custom-styles.css">
+</head>
+<!-- Removed header-fixed class so that the header band renders after the logo -->
+
+<body class="app sidebar-nav sidebar-minimized aside-menu-fixed aside-menu-hidden">
+    <div id="videoDiv">
+        <div id="videoBlock" style="background-color: #006341">
+            <div id="videoLogo">
+                <img src="../s/img/riverbend-logo__home.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav navbar-nav d-md-down-none mr-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./calendar.html">Calendar</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./companies.html">Companies</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./trips.html">Trips</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./deals.html">Deals</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rmaps.html">RMaps</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./notes.html">Notes</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rdata.html">RData</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto" style="font-size: 1em;">
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-bell"></i><span
+                        class="badge badge-pill badge-danger" id="hdrNotificationCount"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center" id="hdrNotificationTitle">
+                        <strong>No notifications</strong>
+                    </div>
+                    <div class="dropdown-header text-center" id="hdrNotificationContainer">
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-list"></i><span
+                        class="badge badge-pill badge-warning" id="hdrNumberOfTasks"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center"><strong>Your tasks</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false" id="loggedUserName">
+                    <span><i class="icon-user icons"></i></span> &nbsp; &nbsp; &nbsp;
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="./logout.html"><i class="fa fa-lock"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+        <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./companies.html"><i class="fa fa-building-o"></i> Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html"><i class="fa fa-address-book-o"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trips.html"><i class="fa fa-plane"></i> Trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./deals.html"><i class="fa fa-handshake-o"></i> Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rmaps.html"><i class="fa fa-map-o"></i> RMaps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./notes.html"><i class="fa fa-file-text-o"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rdata.html"><i class="fa fa-inbox"></i> RData</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+        </div>
+        <!-- Main content -->
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Trip details</li>
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="#" style="font-size: 1em;" id="btnMasterSettings"><i
+                                class="icon-settings"></i> &nbsp;Settings</a>
+                    </div>
+                </li>
+            </ol>
+            <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+                <section>
+                    <p hidden id="userIsAdmin"></p>
+                    <p hidden id="loggedEmployeeId"></p>
+                    <p hidden id="selectedActivityId"></p>
+                    <p hidden id="enableOutlookIntegration">false</p>
+                    <article>
+                        <div class="container-fluid" style="margin-top: 0px; padding-left: 0px; padding-right:0px;">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12"><span class="vc_empty_space_inner"></span></div>
+                                    <div class="col-md-12 text-center">
+                                        <div class="row">
+                                            <div class="col-md-4 text-center">
+                                                <button type="button" id="backToTrips" class="tripsPageButtons"
+                                                    onclick="window.location.href='./trips.html';"><i
+                                                        class="fa fa-plane"></i> Back to trips landing page</button>
+                                            </div>
+                                            <div class="col-md-4 text-center">
+                                                <button type="button" id="btnPrintItinerary" class="tripsPageButtons"><i
+                                                        class="fa fa-print"></i> Print itinerary</button>
+                                            </div>
+                                            <div class="col-md-4 text-center">
+                                                <button type="button" id="btnEmailtinerary"><i
+                                                        class="fa fa-envelope-o"></i> &nbsp; Send email</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="height: 10px"><span
+                                            class="vc_empty_space_inner"></span></div>
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" style="margin-right:15px;"
+                                            id="panelItineraryEmail">
+                                            <div class="panel-heading"><strong>Send email</strong></div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label for="emailItineraryType">Email contents:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon fa fa-arrow-right"></div>
+                                                        <select id="emailItineraryType" name="emailItineraryType"
+                                                            class="form-control">
+                                                            <option value="1" selected>Trip itinerary</option>
+                                                            <option value="2">Trip summary (Notes)</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="emailItineraryRecipients">Recipients:</label>
+                                                    <div class="input-group">
+                                                        <select id="emailItineraryRecipients"
+                                                            name="emailItineraryRecipients" class="form-control"
+                                                            multiple data-placeholder=" " size="5">
+                                                            <!-- To be populated by JS -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnItineraryEmailSend" class="">Send
+                                                            email</button> &nbsp;
+                                                        <button type="button" id="btnItineraryEmailCancel"
+                                                            class="">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" id="panelColorCodes">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel panel-default" id="panelColorCodes"
+                                                    style="padding-top: 10px; padding-left:30px; margin-right:15px;">
+                                                    <div class="row">
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #FF9933;">
+                                                            </div>
+                                                            <label>Travel</label>
+                                                        </div>
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #9FDF9F;">
+                                                            </div>
+                                                            <label>Confirmed meeting</label>
+                                                        </div>
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #FFDB4D;">
+                                                            </div>
+                                                            <label>Non-confirmed meeting</label>
+                                                        </div>
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #DDDDDD;">
+                                                            </div>
+                                                            <label>Open meeting time</label>
+                                                        </div>
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #80CCFF;">
+                                                            </div>
+                                                            <label>Confirmed activity</label>
+                                                        </div>
+                                                        <div class="form-group col">
+                                                            <div class="color-box" style="background-color: #DD99FF;">
+                                                            </div>
+                                                            <label>Non-confirmed activity</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" id="panelNotesEdit">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading"><strong>Edit/add notes</strong></div>
+                                        <div class="panel-body">
+                                            <input type="hidden" id="editNoteId" name="editNoteId" value="">
+                                            <input type="hidden" id="editNoteSource" name="editNoteSource" value="">
+                                            <input type="hidden" id="editNoteSourceId" name="editNoteSourceId" value="">
+                                            <div class="form-group">
+                                                <label for="editNoteType">Type:</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-addon fa fa-arrow-right"></div>
+                                                    <select id="editNoteType" name="editNoteType" class="form-control">
+                                                        <option value="401">General trip notes</option>
+                                                        <option value="403">Trip/flight notes</option>
+                                                        <option value="404">Trip/hotel notes</option>
+                                                        <option value="405">Trip/transportation notes</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <label for="editNoteText">Notes:</label>
+                                            <div class="quill-editor" id="editNoteText">
+                                            </div>
+                                            <button class="btn btn-outline-secondary fa fa-microphone" type="button"
+                                                id="btnNotesDictate"></button>
+                                            <div class="form-group">
+                                                <label for="voiceNoteList">Voice notes:</label>
+                                                <ul class="list-group" id="voiceNoteList">
+
+                                                </ul>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="editNoteFollowUpType">Follow up type:</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-addon fa fa-arrow-right"></div>
+                                                    <select id="editNoteFollowUpType" name="editNoteFollowUpType"
+                                                        class="form-control">
+                                                        <option value="0">None</option>
+                                                        <option value="1">Phone call</option>
+                                                        <option value="2">Email</option>
+                                                        <option value="3">Deliverable</option>
+                                                        <option value="4">In person visit</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row" id="editNoteFollowUpDetailsDiv">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="editNoteFollowUpEmployee">Responsible party:</label>
+                                                        <div class="input-group">
+                                                            <select id="editNoteFollowUpEmployee"
+                                                                name="editNoteFollowUpEmployee" class="form-control"
+                                                                multiple data-placeholder=" " size="5">
+                                                                <!-- To be populated by JS -->
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="editNoteFollowUp">Follow up date:</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-addon fa fa-calendar"></div>
+                                                            <input type="date" class="form-control"
+                                                                id="editNoteFollowUp" name="editNoteFollowUp" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="editNoteAttendeeEmployee">Attending employees:</label>
+                                                <div class="input-group">
+                                                    <select id="editNoteAttendeeEmployee"
+                                                        name="editNoteAttendeeEmployee" class="form-control" multiple
+                                                        data-placeholder=" " size="5">
+                                                        <!-- To be populated by JS -->
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="editNoteAttendeeContact">Attending contacts:</label>
+                                                <div class="input-group">
+                                                    <select id="editNoteAttendeeContact" name="editNoteAttendeeContact"
+                                                        class="form-control" multiple data-placeholder=" " size="5">
+                                                        <!-- To be populated by JS -->
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div id="noteAttachmentSection">
+                                                <div class="form-group panel panel-default">
+                                                    <label for="noteAttachments">Attachments:</label>
+                                                    <ul class="list-group" id="noteAttachments">
+
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <form class="dropzone" id="FormDropZone" action="" method="post"
+                                                        encType="multipart/form-data">
+                                                        <input type="hidden" id="AttachmentNoteId"
+                                                            name="AttachmentNoteId" value="">
+                                                        <input type="hidden" id="AttachmentNoteTempPath"
+                                                            name="AttachmentNoteTempPath" value="">
+                                                        <p class="dz-message">
+                                                            <h5 class="text-center"><br><br>Drop your files here <i
+                                                                    class="glyphicon glyphicon-cloud-upload"></i></h5>
+                                                            <h5 class="text-center text-success" aria-hidden="true">
+                                                            </h5>
+                                                        </p>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <label for="editNoteWhoCreated">Created by:</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="editNoteWhoCreated"
+                                                        name="editNoteWhoCreated" value="" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="editNoteWhoChanged">Last updated by:</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="editNoteWhoChanged"
+                                                        name="editNoteWhoChanged" value="" readonly>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <button type="button" id="btnNoteSubmit" class="">Submit</button>
+                                                    &nbsp;
+                                                    <button type="button" id="btnNoteCancel" class="">Cancel</button>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <button type="button" id="btnNoteDelete" class="">Delete</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" id="tripView">
+                                    <div class="col-md-6 col-sm-6" id="calendar"
+                                        style="margin-left: 0px; margin-right: 0px; padding-right:0px;">
+                                        <!-- this is the calendar container -->
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12" id="panelGeneralTrip">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelTripView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="editMode"><i class="fa fa-edit"></i> &nbsp;
+                                                                        Edit trip details</button></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div class="form-inline">
+                                                                <div id="viewModeContainer">
+                                                                    <!-- This will get populated later -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelTripEdit">
+                                                        <div class="panel-heading"><strong>Edit trip details</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <form id="FormData">
+                                                                <input type="hidden" id="detailsTripId"
+                                                                    name="detailsTripId" value="">
+                                                                <input type="hidden" id="detailsLat" name="detailsLat"
+                                                                    value="">
+                                                                <input type="hidden" id="detailsLong" name="detailsLong"
+                                                                    value="">
+                                                                <div class="form-group">
+                                                                    <label for="detailsTitle">Trip title:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="detailsTitle" name="detailsTitle"
+                                                                            value="{{trip.Title}}">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsStartDate">Start date:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="detailsStartDate"
+                                                                            name="detailsStartDate"
+                                                                            value="{{trip.StartDate}}">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsEndDate">End date:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="detailsEndDate" name="detailsEndDate"
+                                                                            value="{{trip.EndDate}}">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsCompany">Internal
+                                                                        company:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-list"></div>
+                                                                        <select id="detailsCompany"
+                                                                            name="detailsCompany" class="form-control">
+                                                                            <option selected value="">Not specified
+                                                                            </option>
+                                                                            <!-- To be populated by JS -->
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="chkTripLocation">
+                                                                    <label class="form-check-label"
+                                                                        for="chkTripLocation">&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        Specify trip location</label>
+                                                                </div>
+                                                                <div id="divTripLocation">
+                                                                    <div class="form-group">
+                                                                        <label for="detailsLocation">Location:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-edit">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="detailsLocation"
+                                                                                name="detailsLocation"
+                                                                                value="{{trip.Location}}">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="form-inline">
+                                                                        <div id="detailsGeoMap" class="googleGeoMap">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <div class="row">
+                                                                    <div class="col-md">
+                                                                        <button type="button" id="tripDetailsSubmit"
+                                                                            class="">Submit</button> &nbsp;&nbsp;&nbsp;
+                                                                        <button type="button" id="tripDetailsCancel"
+                                                                            class="">Cancel</button>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <button type="button" id="tripDetailsDelete"
+                                                                            class="">Delete</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelAttendeeView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddAttendee"><i class="fa fa-plus"></i>
+                                                                        &nbsp; New attendee </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="attendeesContainer">
+                                                                <table id="tblTripAttendees"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <td id="tAttendeeType"></td>
+                                                                        <td id="tAttendeeName">Name</td>
+                                                                        <td id="tExternalCompanyName">Company / email /
+                                                                            phone</td>
+                                                                        <td id="tAllActivities">All</td>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelAttendeeEdit">
+                                                        <div class="panel-heading"><strong>Edit/add attendee</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <input type="hidden" id="editAttendeeId"
+                                                                name="editAttendeeId" value="">
+                                                            <input type="hidden" id="editAttendeeTypeId"
+                                                                name="editAttendeeTypeId" value="">
+                                                            <div class="form-group">
+                                                                <label for="editAttendeeType">Type:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-arrow-right">
+                                                                    </div>
+                                                                    <select id="editAttendeeType"
+                                                                        name="editAttendeeType" class="form-control">
+                                                                        <option value="1">Employee</option>
+                                                                        <option value="2">Contact</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group" id="divEditAttendeeEmployee">
+                                                                <label for="editAttendeeEmployee">Employee:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-list"></div>
+                                                                    <select id="editAttendeeEmployee"
+                                                                        name="editAttendeeEmployee"
+                                                                        class="form-control">
+                                                                        <option selected value="">Select
+                                                                            &longrightarrow; </option>
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group" id="divEditAttendeeContact">
+                                                                <label for="editAttendeeContact">Contact:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-list"></div>
+                                                                    <select id="editAttendeeContact"
+                                                                        name="editAttendeeContact" class="form-control">
+                                                                        <option selected value="">Select
+                                                                            &longrightarrow; </option>
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="chkAllActivities">
+                                                                <label class="form-check-label"
+                                                                    for="chkAllActivities">&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    Attends all trip activities</label>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnAttendeeSubmit"
+                                                                        class="">Submit</button> &nbsp;
+                                                                    <button type="button" id="btnAttendeeCancel"
+                                                                        class="">Cancel</button>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    <button type="button" id="btnAttendeeDelete"
+                                                                        class="">Delete</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelTripFHTArrangements">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddFlight"><i class="fa fa-plus"></i>
+                                                                        &nbsp; New flight </div>
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddHotel"><i class="fa fa-plus"></i>
+                                                                        &nbsp; New hotel </div>
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddTransport"><i class="fa fa-plus"></i>
+                                                                        &nbsp; New transport</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="flightHotelTransportationContainer">
+                                                                <table id="tblTripFHTArrangements"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <td id="tFHTType">Type</td>
+                                                                        <td id="tFHTDates">Dates</td>
+                                                                        <td id="tFHTDetails">Details</td>
+                                                                        <td id="tFHTEmployees">Employees</td>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelFHTGoogleSearch">
+                                                        <div class="panel-heading"><strong>Google place search</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="searchFHTSpinnerDiv">
+                                                                <div style="display:block;text-align:center"><img
+                                                                        title="saving" src="../s/img/ajax-loading.gif">
+                                                                </div>
+                                                            </div>
+                                                            <div id="searchFHTResultDiv" style="width:100%">
+                                                                <input type="hidden" id="FHTSearchRequestedBy"
+                                                                    name="FHTSearchRequestedBy" value="">
+                                                                <table id="tblFHTSearchResults"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead style="width: 100%;" class="thead-dark">
+                                                                        <th id="tFHTSearchPlaceId">ID</th>
+                                                                        <th id="tFHTSearchName">Name</th>
+                                                                        <th id="tFHTSearchLat">Lat</th>
+                                                                        <th id="tFHTSearchLong">Long</th>
+                                                                        <th id="tFHTSearchAddress">Address</th>
+                                                                        <th id="tFHTSearchPhoneNumber">Phone</th>
+                                                                        <th id="tFHTSearchWebsite">Website</th>
+                                                                        <th id="tFHTSearchPlaceTypes">Place types</th>
+                                                                        <th id="tFHTSearchLocality">City</th>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnFHTSearchSelect"
+                                                                        class="">Select</button> &nbsp;
+                                                                    <button type="button" id="btnFHTSearchCancel"
+                                                                        class="">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelFlightDetails">
+                                                        <div class="panel-heading"><strong>Flight details</strong></div>
+                                                        <div class="panel-body">
+                                                            <form id="FormData">
+                                                                <input type="hidden" id="flightId" name="flightId"
+                                                                    value="">
+                                                                <div class="form-group">
+                                                                    <label for="flightAirline">Airline:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="flightAirline" name="flightAirline"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="flightNumber">Flight number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="flightNumber" name="flightNumber"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <h1>Departure</h1>
+                                                                <hr>
+                                                                <div class="form-group">
+                                                                    <label for="DepartureFlightAirport">Airport:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="DepartureFlightAirport"
+                                                                            name="DepartureFlightAirport" value="">
+                                                                        <div class="input-group-append">
+                                                                            <button
+                                                                                class="btn btn-outline-secondary fa fa-google"
+                                                                                type="button"
+                                                                                id="btnDepartureGoogleFLPlaceSearch">&nbsp;Search</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="DepartureFlightAddress">Address:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="DepartureFlightAddress"
+                                                                            name="DepartureFlightAddress" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="DepartureFlightPhoneNumber">Phone
+                                                                        number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="DepartureFlightPhoneNumber"
+                                                                            name="DepartureFlightPhoneNumber" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="DepartureFlightDate">Date &
+                                                                        Time:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="DepartureFlightDate"
+                                                                            name="DepartureFlightDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="DepartureFlightTime"
+                                                                            name="DepartureFlightTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <h1>Arrival</h1>
+                                                                <hr>
+                                                                <div class="form-group">
+                                                                    <label for="ArrivalFlightAirport">Airport:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="ArrivalFlightAirport"
+                                                                            name="ArrivalFlightAirport" value="">
+                                                                        <div class="input-group-append">
+                                                                            <button
+                                                                                class="btn btn-outline-secondary fa fa-google"
+                                                                                type="button"
+                                                                                id="btnArrivalGoogleFLPlaceSearch">&nbsp;Search</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="ArrivalFlightAddress">Address:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="ArrivalFlightAddress"
+                                                                            name="ArrivalFlightAddress" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="ArrivalFlightPhoneNumber">Phone
+                                                                        number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="ArrivalFlightPhoneNumber"
+                                                                            name="ArrivalFlightPhoneNumber" value="">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="form-group">
+                                                                    <label for="ArrivalFlightDate">Date & Time</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="ArrivalFlightDate"
+                                                                            name="ArrivalFlightDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="ArrivalFlightTime"
+                                                                            name="ArrivalFlightTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <div id="divFlightAttendeesDatatable">
+                                                                    <table id="tblFlightAttendees"
+                                                                        class="table-sm table-striped table-hover"
+                                                                        style="width:100%; height:100%;">
+                                                                        <thead class="thead-dark">
+                                                                            <th id="tFAName">Name</th>
+                                                                            <th id="tFAConfirmation">Confirmation #</th>
+                                                                            <th id="tFASeat">Seat</th>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <button type="button" id="btnAddFlightAttendee"
+                                                                        class="">Add passenger</button> &nbsp;
+                                                                    <hr>
+                                                                    <div class="row">
+                                                                        <div class="col-md">
+                                                                            <button type="button" id="btnFlightSubmit"
+                                                                                class="">Submit</button> &nbsp;
+                                                                            <button type="button" id="btnFlightCancel"
+                                                                                class="">Cancel</button>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                            <button type="button" id="btnFlightDelete"
+                                                                                class="">Delete</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="divFlightAttendeesEdit">
+                                                                    <div class="form-group">
+                                                                        <label
+                                                                            for="flightAttendeeEmployee">Employee:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-list">
+                                                                            </div>
+                                                                            <select id="flightAttendeeEmployee"
+                                                                                name="flightAttendeeEmployee"
+                                                                                class="form-control">
+                                                                                <option selected value="">Select
+                                                                                    &longrightarrow; </option>
+                                                                                <!-- To be populated by JS -->
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label
+                                                                            for="flightAttendeeConfirmationNumber">Confirmation
+                                                                            number:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-edit">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="flightAttendeeConfirmationNumber"
+                                                                                name="flightAttendeeConfirmationNumber"
+                                                                                value="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="flightAttendeeSeat">Seat:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-edit">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="flightAttendeeSeat"
+                                                                                name="flightAttendeeSeat" value="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="col-md">
+                                                                        <button type="button"
+                                                                            id="btnFlightAttendeeSubmit"
+                                                                            class="">Accept</button> &nbsp;
+                                                                        <button type="button"
+                                                                            id="btnFlightAttendeeCancel"
+                                                                            class="">Cancel</button>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <button type="button"
+                                                                            id="btnFlightAttendeeDelete"
+                                                                            class="">Delete</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="panel panel-default" id="panelHotelDetails">
+                                                        <div class="panel-heading"><strong>Hotel details</strong></div>
+                                                        <div class="panel-body">
+                                                            <form id="FormData">
+                                                                <input type="hidden" id="hotelId" name="hotelId"
+                                                                    value="">
+                                                                <div class="form-group">
+                                                                    <label for="hotelHotel">Hotel:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelHotel" name="hotelHotel" value="">
+                                                                        <div class="input-group-append">
+                                                                            <button
+                                                                                class="btn btn-outline-secondary fa fa-google"
+                                                                                type="button"
+                                                                                id="btnGoogleHTPlaceSearch">&nbsp;Search</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="hotelAddress">Address:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelAddress" name="hotelAddress"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="hotelPhoneNumber">Phone number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelPhoneNumber"
+                                                                            name="hotelPhoneNumber" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="hotelAttendeeReservationNumber">Reservation
+                                                                        number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelAttendeeReservationNumber"
+                                                                            name="hotelAttendeeReservationNumber"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="hotelCheckInDate">Check in:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="hotelCheckInDate"
+                                                                            name="hotelCheckInDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelCheckInTime"
+                                                                            name="hotelCheckInTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="hotelCheckOutDate">Check out:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="hotelCheckOutDate"
+                                                                            name="hotelCheckOutDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="hotelCheckOutTime"
+                                                                            name="hotelCheckOutTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="hotelAttendeeEmployee">Employees:</label>
+                                                                    <div class="input-group">
+                                                                        <select id="hotelAttendeeEmployees"
+                                                                            name="hotelAttendeeEmployees" multiple
+                                                                            class="form-control">
+                                                                            <!-- To be populated by JS -->
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <div class="row">
+                                                                    <div class="col-md">
+                                                                        <button type="button" id="btnHotelSubmit"
+                                                                            class="">Submit</button> &nbsp;
+                                                                        <button type="button" id="btnHotelCancel"
+                                                                            class="">Cancel</button>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <button type="button" id="btnHotelDelete"
+                                                                            class="">Delete</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <div class="panel panel-default" id="panelTransportationDetails">
+                                                        <div class="panel-heading"><strong>Transportation
+                                                                arrangements</strong></div>
+                                                        <div class="panel-body">
+                                                            <form id="FormData">
+                                                                <input type="hidden" id="transportationId"
+                                                                    name="transportationId" value="">
+                                                                <div class="form-group">
+                                                                    <label for="transportationCompany">Company:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationCompany"
+                                                                            name="transportationCompany" value="">
+                                                                        <div class="input-group-append">
+                                                                            <button
+                                                                                class="btn btn-outline-secondary fa fa-google"
+                                                                                type="button"
+                                                                                id="btnGoogleTAPlaceSearch">&nbsp;Search</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="transportationLocation">Location:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationLocation"
+                                                                            name="transportationLocation" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="transportationPhoneNumber">Phone
+                                                                        number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationPhoneNumber"
+                                                                            name="transportationPhoneNumber" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="transportationConfirmationNumber">Confirmation
+                                                                        number:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationConfirmationNumber"
+                                                                            name="transportationConfirmationNumber"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="transportationPickupDate">Pickup:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="transportationPickupDate"
+                                                                            name="transportationPickupDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationPickupTime"
+                                                                            name="transportationPickupTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="transportationDropOffDate">Drop
+                                                                        off:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="transportationDropOffDate"
+                                                                            name="transportationDropOffDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="transportationDropOffTime"
+                                                                            name="transportationDropOffTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label
+                                                                        for="transportationEmployee">Employee:</label>
+                                                                    <div class="input-group">
+                                                                        <select id="transportationEmployee"
+                                                                            name="transportationEmployee"
+                                                                            class="form-control" multiple>
+                                                                            <!-- To be populated by JS -->
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <div class="row">
+                                                                    <div class="col-md">
+                                                                        <button type="button"
+                                                                            id="btnTransportationSubmit"
+                                                                            class="">Submit</button> &nbsp;
+                                                                        <button type="button"
+                                                                            id="btnTransportationCancel"
+                                                                            class="">Cancel</button>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <button type="button"
+                                                                            id="btnTransportationDelete"
+                                                                            class="">Delete</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelNotesView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddNote"><i class="fa fa-plus"></i>
+                                                                        &nbsp; New note </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="notesContainer">
+                                                                <table id="tblNotes"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <td id="tNoteId">ID</td>
+                                                                        <td id="tNoteDate">Date</td>
+                                                                        <td id="tNoteTypeId">TypeId</td>
+                                                                        <td id="tNoteType">Type</td>
+                                                                        <td id="tNotes">Notes</td>
+                                                                        <td id="tFollowUp">Follow up</td>
+                                                                        <td id="temail"></td>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelNotesEmail">
+                                                        <div class="panel-heading"><strong>Send note by email</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <input type="hidden" id="emailNoteId" name="emailNoteId"
+                                                                value="">
+                                                            <div class="form-group">
+                                                                <label for="emailNoteRecipients">Recipients:</label>
+                                                                <div class="input-group">
+                                                                    <select id="emailNoteRecipients"
+                                                                        name="emailNoteRecipients" class="form-control"
+                                                                        multiple data-placeholder=" " size="5">
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnNoteEmailSend"
+                                                                        class="">Submit</button> &nbsp;
+                                                                    <button type="button" id="btnNoteEmailCancel"
+                                                                        class="">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" id="panelTripActivity">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelActivityView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md-6"><button type="button"
+                                                                        id="activityEditMode"><i class="fa fa-edit"></i>
+                                                                        &nbsp; Edit activity details</button></div>
+                                                                <div class="col-md-6"><button type="button"
+                                                                        id="btnBackToTripDetails" class=""><i
+                                                                            class="fa fa-arrow-left"></i> &nbsp; Back to
+                                                                        trip details</button></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div class="form-inline">
+                                                                <div id="activityViewModeContainer">
+                                                                    <!-- This will get filled later -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelGoogleSearch">
+                                                        <div class="panel-heading"><strong>Google place search</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="searchSpinnerDiv">
+                                                                <div style="display:block;text-align:center"><img
+                                                                        title="saving" src="../s/img/ajax-loading.gif">
+                                                                </div>
+                                                            </div>
+                                                            <div id="searchResultDiv" style="width:100%">
+                                                                <table id="tblSearchResults"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead style="width: 100%;" class="thead-dark">
+                                                                        <th id="tSearchPlaceId">ID</th>
+                                                                        <th id="tSearchName">Name</th>
+                                                                        <th id="tSearchLat">Lat</th>
+                                                                        <th id="tSearchLong">Long</th>
+                                                                        <th id="tSearchAddress">Address</th>
+                                                                        <th id="tSearchPhoneNumber">Phone</th>
+                                                                        <th id="tSearchWebsite">Website</th>
+                                                                        <th id="tSearchPlaceTypes">Place types</th>
+                                                                        <th id="tSearchLocality">City</th>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnSearchSelect"
+                                                                        class="">Select</button> &nbsp;
+                                                                    <button type="button" id="btnSearchCancel"
+                                                                        class="">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default" id="panelActivityEdit">
+                                                        <div class="panel-heading">
+                                                            <strong>Edit activity details</strong>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <form id="FormData">
+                                                                <input type="hidden" id="detailsActivityId"
+                                                                    name="detailsActivityId" value="">
+                                                                <input type="hidden" id="detailsActivityLat"
+                                                                    name="detailsActivityLat" value="">
+                                                                <input type="hidden" id="detailsActivityLong"
+                                                                    name="detailsActivityLong" value="">
+                                                                <div class="form-group">
+                                                                    <label for="detailsActivityTitle">Activity
+                                                                        title:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-edit"></div>
+                                                                        <input type="text" class="form-control"
+                                                                            id="detailsActivityTitle"
+                                                                            name="detailsActivityTitle" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsActivityStartDate">Start date /
+                                                                        time:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="detailsActivityStartDate"
+                                                                            name="detailsActivityStartDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="detailsActivityStartTime"
+                                                                            name="detailsActivityStartTime" value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsActivityEndDate">End
+                                                                        date:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-calendar">
+                                                                        </div>
+                                                                        <input type="date" class="form-control"
+                                                                            id="detailsActivityEndDate"
+                                                                            name="detailsActivityEndDate" value="">
+                                                                        <input type="text" class="form-control"
+                                                                            id="detailsActivityEndTime" name="EndTime"
+                                                                            value="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="detailsActivityType">Activity
+                                                                        type:</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-addon fa fa-list"></div>
+                                                                        <select id="detailsActivityType"
+                                                                            name="detailsActivityType"
+                                                                            class="form-control">
+                                                                            <option selected value="2">Confirmed meeting
+                                                                            </option>
+                                                                            <option value="3">Non-confirmed meeting
+                                                                            </option>
+                                                                            <option value="4">Open meeting time</option>
+                                                                            <option value="5">Confirmed activity
+                                                                            </option>
+                                                                            <option value="6">Non-confirmed activity
+                                                                            </option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="chkActivityLocation">
+                                                                    <label class="form-check-label"
+                                                                        for="chkActivityLocation">&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        Specify activity location</label>
+                                                                </div>
+                                                                <div id="divActivityLocation">
+                                                                    <div class="form-group">
+                                                                        <label
+                                                                            for="detailsActivityLocation">Location:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-edit">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="detailsActivityLocation"
+                                                                                name="detailsActivityLocation" value="">
+                                                                            <div class="input-group-append">
+                                                                                <button
+                                                                                    class="btn btn-outline-secondary fa fa-google"
+                                                                                    type="button"
+                                                                                    id="btnGooglePlaceSearch">&nbsp;Search</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label
+                                                                            for="detailsActivityAddress">Address:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-edit">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="detailsActivityAddress"
+                                                                                name="detailsActivityAddress" value="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="detailsActivityPhoneNumber">Phone
+                                                                            number:</label>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon fa fa-phone">
+                                                                            </div>
+                                                                            <input type="text" class="form-control"
+                                                                                id="detailsActivityPhoneNumber"
+                                                                                name="detailsActivityPhoneNumber"
+                                                                                value="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-inline">
+                                                                        <div id="detailsActivityGeoMap"
+                                                                            class="googleGeoMap">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                                <div class="row">
+                                                                    <div class="col-md">
+                                                                        <button type="button" id="detailsActivitySubmit"
+                                                                            class="">Submit</button> &nbsp;&nbsp;&nbsp;
+                                                                        <button type="button" id="detailsActivityCancel"
+                                                                            class="">Cancel</button>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <button type="button" id="detailsActivityDelete"
+                                                                            class="">Delete</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelActivityAttendeeView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddActivityAttendee"><i
+                                                                            class="fa fa-plus"></i> &nbsp; New activity
+                                                                        attendee</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="activityAttendeesContainer">
+                                                                <table id="tblActivityAttendees"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <th id="tActivityAttendeeType"></th>
+                                                                        <th id="tActivityAttendeeName">Name</th>
+                                                                        <th id="tActivityExternalCompanyName">Company /
+                                                                            email / phone</th>
+                                                                        <th id="tActivityAllActivities">All</th>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelActivityAttendeeEdit">
+                                                        <div class="panel-heading"><strong>Edit/add activity
+                                                                attendee</strong></div>
+                                                        <div class="panel-body">
+                                                            <input type="hidden" id="editActivityAttendeeId"
+                                                                name="editActivityAttendeeId" value="">
+                                                            <input type="hidden" id="editActivityAttendeeTypeId"
+                                                                name="editActivityAttendeeTypeId" value="">
+                                                            <div class="form-group">
+                                                                <label for="editActivityAttendeeType">Type:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-arrow-right">
+                                                                    </div>
+                                                                    <select id="editActivityAttendeeType"
+                                                                        name="editActivityAttendeeType"
+                                                                        class="form-control">
+                                                                        <option value="1">Employee</option>
+                                                                        <option value="2">Contact</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group"
+                                                                id="divEditActivityAttendeeEmployee">
+                                                                <label
+                                                                    for="editActivityAttendeeEmployee">Employee:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-list"></div>
+                                                                    <select id="editActivityAttendeeEmployee"
+                                                                        name="editActivityAttendeeEmployee"
+                                                                        class="form-control">
+                                                                        <option selected value="">Select
+                                                                            &longrightarrow; </option>
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group" id="divEditActivityAttendeeContact">
+                                                                <label
+                                                                    for="editActivityAttendeeContact">Contact:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon fa fa-list"></div>
+                                                                    <select id="editActivityAttendeeContact"
+                                                                        name="editActivityAttendeeContact"
+                                                                        class="form-control">
+                                                                        <option selected value="">Select
+                                                                            &longrightarrow; </option>
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnActivityAttendeeSubmit"
+                                                                        class="">Submit</button> &nbsp;
+                                                                    <button type="button" id="btnActivityAttendeeCancel"
+                                                                        class="">Cancel</button>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    <button type="button" id="btnActivityAttendeeDelete"
+                                                                        class="">Delete</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelActivityNotesView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md"><button type="button"
+                                                                        id="btnAddActivityNote"><i
+                                                                            class="fa fa-plus"></i> &nbsp; New activity
+                                                                        note </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="activityNotesContainer">
+                                                                <table id="tblActivityNotes"
+                                                                    class="table-sm table-striped table-hover"
+                                                                    style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <th id="tNoteId">ID</th>
+                                                                        <th id="tNoteDate">Date</th>
+                                                                        <th id="tNoteTypeId">TypeId</th>
+                                                                        <th id="tNoteType">Type</th>
+                                                                        <th id="tNotes">Notes</th>
+                                                                        <th id="tFollowUp">Follow up</th>
+                                                                        <th id="temail"></th>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelActivityNotesEmail">
+                                                        <div class="panel-heading"><strong>Send activity note by
+                                                                email</strong></div>
+                                                        <div class="panel-body">
+                                                            <input type="hidden" id="emailActivityNoteId"
+                                                                name="emailActivityNoteId" value="">
+                                                            <div class="form-group">
+                                                                <label
+                                                                    for="emailActivityNoteRecipients">Recipients:</label>
+                                                                <div class="input-group">
+                                                                    <select id="emailActivityNoteRecipients"
+                                                                        name="emailActivityNoteRecipients"
+                                                                        class="form-control" multiple
+                                                                        data-placeholder=" " size="5">
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnActivityNoteEmailSend"
+                                                                        class="">Submit</button> &nbsp;
+                                                                    <button type="button"
+                                                                        id="btnActivityNoteEmailCancel"
+                                                                        class="">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+
+
+
+
+
+
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+        <aside class="aside-menu">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+                        <i class="icon-list"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                        <i class="icon-speech"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                        <i class="icon-settings"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="timeline" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="messages" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="settings" role="tabpanel">
+                </div>
+        </aside>
+
+
+    </div>
+    <footer class="app-footer">
+        <span class="ml-auto">Powered by <a href="https://www.yammm.com/">Yammm</a></span>
+    </footer>
+    <script>
+        // This is required to enable JQuery on Electron, when NodeJS integration is enabled, and
+        // we need it for IPC
+        if (typeof module === 'object') {
+            window.module = module; module = undefined;
+        }
+    </script>
+    <!-- Bootstrap and necessary plugins -->
+    <script src="../s/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../s/popper/umd/popper.min.js"></script>
+    <!--<script type="text/javascript" src="/s/bootstrap/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="../s/bootstrap/js/bootstap.3.4.0..js"></script>
+    <script type="text/javascript" src="../s/js/jquery.datatables.min.js"></script>
+    <script type="text/javascript" src="../s/datatables/js/dataTables.select.min.js"></script>
+    <script type="text/javascript" src="../s/datatables/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="../s/datatables/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="../s/datatables/js/buttons.print.min.js"></script>
+    <script type="text/javascript" src="../s/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../s/js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="../s/js/moment.min.js"></script>
+
+    <!-- Plugins and scripts required by all views -->
+    <script src="../s/js/chart.min.js"></script>
+    <!-- Main scripts -->
+    <script src="../s/js/dropzone.js"></script>
+    <script src="../s/js/mic-recorder-to-mp3.js"></script>
+    <script src="../s/js/pdfmake.js"></script>
+    <script src="../s/js/vfs_fonts.js"></script>
+    <script src="../s/js/bootstrap-timepicker.js"></script>
+    <script src="../s/js/jquery-te-1.4.0.min.js"></script>
+    <script src="../s/js/fullcalendar.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWxcqTT827bH9usCEqGgxT6udhMO8mWdM&libraries=places"></script>
+    <!-- Template scripts -->
+    <script src="../js/app.js"></script>
+    <script src="../js/views/tripdetails.js"></script>
+</body>
+
+</html>

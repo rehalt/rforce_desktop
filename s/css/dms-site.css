@@ -1,0 +1,33 @@
+#customForm {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#customForm fieldset {
+    flex: 1;
+    border: none;
+    /* 1px solid #aaa;*/
+    margin: 0.5em;
+}
+
+#customForm fieldset legend {
+    padding: 5px 20px;
+    border: none;
+    /*1px solid #aaa;*/
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+#customForm fieldset.general {
+    flex: 2 100%;
+}
+
+#customForm fieldset.general legend {}
+
+#customForm fieldset.latitude legend {}
+
+#customForm fieldset.longitude legend {}
+
+#customForm div.DTE_Field {
+    padding: 5px;
+}

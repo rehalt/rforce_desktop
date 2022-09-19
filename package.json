@@ -1,0 +1,51 @@
+{
+  "name": "RForce",
+  "version": "0.9.0",
+  "description": "RForce Desktop Application",
+  "main": "main.js",
+  "author": "YAMMM",
+  "license": "ISC",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "win": "electron-builder -w",
+    "win-release": "electron-builder -w -p 'always'",
+    "make-cert": "electron-builder create-self-signed-cert -p YAMMM"
+  },
+  "build": {
+    "appId": "team.rforce",
+    "directories": {
+      "buildResources": "./build"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./build/icon.png",
+      "publisherName": "YAMMM",
+      "certificateFile": "./certs/YAMMM.pfx",
+      "verifyUpdateCodeSignature": false,
+      "files": [
+        "!config.json"
+      ],
+      "publish": [
+        {
+          "provider": "github",
+          "owner": "rehalt",
+          "repo": "rforce_desktop",
+          "private": false
+        }
+      ]
+    },
+    "asar": false
+  },
+  "devDependencies": {
+    "electron": "^4.2.8",
+    "electron-builder": "^20.39.0",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "@exponent/electron-cookies": "^2.0.0",
+    "electron-log": "^3.0.5",
+    "electron-pdf-window": "^1.0.12",
+    "electron-updater": "^4.0.6",
+    "rcedit": "^1.1.1"
+  }
+}

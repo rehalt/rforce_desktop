@@ -1,0 +1,20 @@
+{
+    "serverPath": "http://localhost:8080",
+
+    "url":               "rforce.team",
+    "tenant":            "rboil.onmicrosoft.com",
+    "authorityHostUrl":  "https://login.microsoftonline.com",
+    "clientId":          "3d6eeb85-2487-420d-8125-58d19965c395",
+    "clientSecret":      "OH2UVUquZ/7+aCsbi1i5VPcf53O5+Pf0WNwVznk0jqI=",
+    "fileServerName":    "SR-NBK-TI01",
+    "fileServerBasePath": "\\\\{fileServer}\\Shared\\_Companies\\{dropFolder}\\Opportunities\\{dealNumber}\\",
+    "ad": {
+        "url": "ldap://ldap.forumsys.com",
+        "baseDN": "cn=read-only-admin,dc=example,dc=com",
+        "username": "example\\riemann",
+        "password": "password",
+        "adminGroup": "CalendarAdmins",
+        "enableAdAdminValidation": false,
+        "enforceEmployeeLogin": false
+    }
+}

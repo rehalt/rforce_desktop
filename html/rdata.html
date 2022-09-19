@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLSCO - {{project}}">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="../img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="../img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="../img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="../img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/favicon-180.png">
+    <!--  <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <title>Riverbend - RForce</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="../s/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../s/simple-line-icons/css/simple-line-icons.css">
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.min.css' />
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.print.min.css' media='print' />
+    <link rel="stylesheet" type="text/css" href="../s/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/editor.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap-duallistbox.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/quill.snow.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.css" />
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap.css">
+    <!-- Main st/yles for this application -->
+    <link href="../s/css/stylev2.css" rel="stylesheet">
+    <link href="../s/css/spinkit.min.css" rel="stylesheet">
+    <!-- Styles required by this views -->
+    <link rel="stylesheet" type="text/css" href="../s/css/custom-styles.css">
+</head>
+<!-- Removed header-fixed class so that the header band renders after the logo -->
+
+<body class="app sidebar-nav sidebar-minimized aside-menu-fixed aside-menu-hidden">
+    <div id="videoDiv">
+        <div id="videoBlock" style="background-color: #006341">
+            <div id="videoLogo">
+                <img src="../s/img/riverbend-logo__home.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav navbar-nav d-md-down-none mr-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./calendar.html">Calendar</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./companies.html">Companies</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./trips.html">Trips</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./deals.html">Deals</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rmaps.html">RMaps</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./notes.html">Notes</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rdata.html">RData</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto" style="font-size: 1em;">
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-bell"></i><span
+                        class="badge badge-pill badge-danger" id="hdrNotificationCount"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center" id="hdrNotificationTitle">
+                        <strong>No notifications</strong>
+                    </div>
+                    <div class="dropdown-header text-center" id="hdrNotificationContainer">
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-list"></i><span
+                        class="badge badge-pill badge-warning" id="hdrNumberOfTasks"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center"><strong>Your tasks</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false" id="loggedUserName">
+                    <span><i class="icon-user icons"></i></span> &nbsp; &nbsp; &nbsp;
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="./logout.html"><i class="fa fa-lock"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+        <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./companies.html"><i class="fa fa-building-o"></i> Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html"><i class="fa fa-address-book-o"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trips.html"><i class="fa fa-plane"></i> Trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./deals.html"><i class="fa fa-handshake-o"></i> Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rmaps.html"><i class="fa fa-map-o"></i> RMaps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./notes.html"><i class="fa fa-file-text-o"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rdata.html"><i class="fa fa-inbox"></i> RData</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+        </div>
+        <!-- Main content -->
+
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Contact Details</li>
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="#" style="font-size: 1em;" id="btnMasterSettings"><i
+                                class="icon-settings"></i> &nbsp;Settings</a>
+                    </div>
+                </li>
+            </ol>
+            <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+                <section>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <!-- left column -->
+                                <div class="col-md-4" style="height:100vh;">
+
+                                    <ul class="nav nav-pills">
+                                        <li role="presentation" class="active"><a href="#panInbox"
+                                                aria-controls="panInbox" role="tab" data-toggle="tab"
+                                                id="pillInbox">Inbox</a></li>
+                                        <li role="presentation"><a href="#panArchive" aria-controls="panArchive"
+                                                role="tab" data-toggle="tab" id="pillArchive">Archive</a></li>
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <!-- INBOX panel -->
+                                        <div role="tabpanel" class="tab-pane active scrollable" id="panInbox">
+                                            <!-- open a portview for scrolling -->
+                                            <div class="inboxDiv">
+                                                <table id="tblInbox" class="table-sm table-striped table-hover"
+                                                    style="width:100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th width="80%"></th>
+                                                            <th width="20%"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                                <div style="text-align: center">
+                                                    <div style="display: inline-block">
+                                                        <a href="#" id="lnkLoadMore">Load more... </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ARCHIVE panel -->
+                                        <div role="tabpanel" class="tab-pane scrollable" id="panArchive">
+                                            <!-- open a portview for scrolling -->
+                                            <div class="inboxDiv">
+                                                <table id="tblArchive" class="table-sm table-striped table-hover"
+                                                    style="width:100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th width="80%"></th>
+                                                            <th width="20%"></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                                <div style="text-align: center">
+                                                    <div style="display: inline-block">
+                                                        <a href="#" id="lnkLoadMoreArchive">Load more... </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- middle column -->
+                                <div class="col-md-5" style="height:100vh;">
+                                    <div class="alert alert-danger" role="alert" id="errorPanel" style="display:none">
+                                        <strong>Warning!</strong>&nbsp;&nbsp;<span id="errorMessage"> {error message
+                                            goes
+                                            here}</span>
+                                    </div>
+                                    <div class="alert alert-success" role="alert" id="successPanel"
+                                        style="display:none">
+                                        <strong>Success!</strong>&nbsp;&nbsp;<span id="successMessage"> {success message
+                                            goes
+                                            here}</span>
+                                    </div>
+
+                                    <div class="scrollable">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <div id="mailLoading" style="display:block;text-align:center">
+                                                    <h2>Please wait... <img src="../s/img/ajax-loader.gif"></h2>
+                                                </div>
+                                                <h3><span id="emailSubject"></span>&nbsp;<span
+                                                        id="emailHasAttachments"></span>
+                                                </h3>
+                                                <hr>
+                                                <h5><span id="emailFrom"></span><br>
+                                                    <span id="emailSentDateTime"></span><br>
+                                                    <span id="emailToRecipients"></span><br>
+                                                    <span id="emailCcRecipients"></span>
+                                                </h5>
+                                                <hr>
+                                                <div id="mailBodyPanel">
+                                                    <br><br><br><br><br>
+                                                    <div style="text-align: center">
+                                                        <div style="display: inline-block">
+                                                            <font color="#C0C0C0">
+                                                                <h3>select and item to read <i class="fa fa-envelope"
+                                                                        aria-hidden="true"></i></h3>
+                                                            </font>
+                                                        </div>
+                                                    </div>
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <hr>
+                                                <div id="attachmentsPanel">
+                                                </div>
+                                                <input type="hidden" id="mailId" value="">
+                                                <input type="hidden" id="selectedAssignmentType" value="deal">
+                                                <input type="hidden" id="emailHasAttachmentsFlag" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- right column -->
+                                <div class="col-md-3">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+
+
+                                            <ul class="nav nav-pills">
+                                                <li role="presentation" style="padding-top: 10px"><b>Assign
+                                                        to:</b>&nbsp;
+                                                </li>
+                                                <li role="presentation" class="active"><a href="#panDeal"
+                                                        aria-controls="panDeal" role="tab" data-toggle="tab"
+                                                        id="pillDeal">Deal</a></li>
+                                                <li role="presentation"><a href="#panContact" aria-controls="panContact"
+                                                        role="tab" data-toggle="tab" id="pillContact">Contact</a></li>
+                                                <li role="presentation"><a href="#panCompany" aria-controls="panCompany"
+                                                        role="tab" data-toggle="tab" id="pillCompany">Company</a></li>
+                                                <li role="presentation"><a href="#panCalendar"
+                                                        aria-controls="panCalendar" role="tab" data-toggle="tab"
+                                                        id="pillCalendar">Calendar</a></li>
+                                            </ul>
+
+                                            <!-- Tab panes -->
+                                            <div class="tab-content">
+
+                                                <!-- Deal panel -->
+                                                <div role="tabpanel" class="tab-pane active" id="panDeal">
+                                                    Target: <select id="dealTarget"
+                                                        class="text ui-widget-content ui-corner-all" name="target">
+                                                        <option value="notes">Notes</option>
+                                                        <option value="attachments">Attachments</option>
+                                                    </select><br><br>
+                                                    <div id="panelDealNotes">
+                                                        Notes:<br>
+                                                        <textarea id="dealNotes" style="width:100%" rows="5"
+                                                            class="text ui-widget-content ui-corner-all"></textarea>
+                                                    </div><br>
+                                                    Deal: <select id="dealId"
+                                                        class="text ui-widget-content ui-corner-all" name="dealId">
+                                                    </select>
+                                                    <a href='#' id="lnkEditDeal">Edit deal...</a>
+                                                </div>
+
+                                                <!-- Contact panel -->
+                                                <div role="tabpanel" class="tab-pane" id="panContact">
+                                                    Target: <select id="contactTarget"
+                                                        class="text ui-widget-content ui-corner-all"
+                                                        name="contactTarget">
+                                                        <option value="notes">Notes</option>
+                                                        <option value="attachments">Attachments</option>
+                                                    </select>
+                                                    <br><br>
+                                                    <div id="panelContactNotes">
+                                                        Notes:<br>
+                                                        <textarea id="contactNotes" style="width:100%" rows="5"
+                                                            class="text ui-widget-content ui-corner-all"></textarea>
+                                                    </div><br>
+                                                    Contact: <select id="contactId"
+                                                        class="text ui-widget-content ui-corner-all" name="contactId">
+                                                    </select>
+                                                    <a href='#' id="lnkEditContact">Edit contact...</a>
+                                                </div>
+
+                                                <!-- Company panel -->
+                                                <div role="tabpanel" class="tab-pane" id="panCompany">
+                                                    Target: <select id="companyTarget"
+                                                        class="text ui-widget-content ui-corner-all"
+                                                        name="companyTarget">
+                                                        <option value="notes">Notes</option>
+                                                        <option value="attachments">Attachments</option>
+                                                    </select>
+                                                    <br><br>
+                                                    <div id="panelCompanyNotes">
+                                                        Notes:<br>
+                                                        <textarea id="companyNotes" style="width:100%" rows="5"
+                                                            class="text ui-widget-content ui-corner-all"></textarea>
+                                                    </div><br>
+                                                    Company: <select id="companyId"
+                                                        class="text ui-widget-content ui-corner-all" name="companyId">
+                                                    </select>
+                                                    <a href='#' id="lnkEditCompany">Edit company...</a>
+                                                </div>
+
+                                                <!-- Calendar panel -->
+                                                <div role="tabpanel" class="tab-pane" id="panCalendar">
+                                                    Target: <select id="calendarEventTarget"
+                                                        class="text ui-widget-content ui-corner-all"
+                                                        name="calendarEventTarget">
+                                                        <option value="notes">Notes</option>
+                                                    </select>
+                                                    <br><br>
+                                                    <div id="panelCalendarEventNotes">
+                                                        Notes:<br>
+                                                        <textarea id="calendarEventNotes" style="width:100%" rows="5"
+                                                            class="text ui-widget-content ui-corner-all"></textarea>
+                                                    </div>
+                                                    Calendar Event: <select id="calendarEventId"
+                                                        class="text ui-widget-content ui-corner-all"
+                                                        name="calendarEventId">
+                                                    </select><br>
+                                                    <a href='#' id="lnkEditCalendarEvent">Edit calendar event...</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <button id="btnReply">Respond...</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <button id="btnSubmit">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+
+        <!-- Dialog: send notes by email -->
+        <div class="panel panel-default" id="replyMailDialog" title="Reply email">
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="emailMessage">Message:</label>
+                    <div class="input-group">
+                        <textarea id="emailMessage" style="width:100%" rows="12 "
+                            class="text ui-widget-content ui-corner-all"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <style>
+            .table-hover tbody tr:hover {
+                background-color: #B0BED9;
+            }
+
+            .scrollable {
+                height: 65vh;
+                overflow-y: scroll;
+                width: 100%;
+                background: white
+            }
+        </style>
+
+
+        </main>
+
+
+        <aside class="aside-menu">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+                        <i class="icon-list"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                        <i class="icon-speech"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                        <i class="icon-settings"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="timeline" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="messages" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="settings" role="tabpanel">
+                </div>
+            </div>
+        </aside>
+
+
+    </div>
+    <footer class="app-footer">
+        <span class="ml-auto">Powered by <a href="https://www.yammm.com/">Yammm</a></span>
+    </footer>
+
+    <!-- Enable jquery and IPC functionality -->
+    <script>
+        // This is required to enable JQuery on Electron, when NodeJS integration is enabled, and
+        // we need it for IPC
+        if (typeof module === 'object') {
+            window.module = module; module = undefined;
+        }
+    </script>
+    <!-- Insert this line above script imports  -->
+
+
+    <!-- Bootstrap and necessary plugins -->
+    <script type="text/javascript" src="../s/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../s/popper/umd/popper.min.js"></script>
+    <script type="text/javascript" src="../s/bootstrap/js/bootstap.3.4.0..js"></script>
+    <script type="text/javascript" src="../s/js/jquery.datatables.min.js"></script>
+    <script type="text/javascript" src="../s/js/dataTables.editor.min.js"></script>
+    <script type="text/javascript" src="../s/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="../s/js/jszip.min.js"></script>
+    <script type="text/javascript" src="../s/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="../s/js/dataTables.select.min.js"></script>
+    <script type="text/javascript" src="../s/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../s/js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="../s/js/select2.min.js"></script>
+    <script type="text/javascript" src="../s/js/moment.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script type="text/javascript" src="../js/views/rdata.js"></script>
+</body>
+
+</html>

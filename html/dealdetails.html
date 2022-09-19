@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLSCO - {{project}}">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="../img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="../img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="../img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="../img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/favicon-180.png">
+    <!--  <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <title>Riverbend - RForce</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="../s/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../s/simple-line-icons/css/simple-line-icons.css">
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.min.css' />
+    <link rel='stylesheet' type="text/css" href='../s/css/fullcalendar.print.min.css' media='print' />
+    <link rel="stylesheet" type="text/css" href="../s/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/editor.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap-duallistbox.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="../s/css/chosen.css" />
+    <link rel="stylesheet" type="text/css" href="../s/css/bootstrap.css">
+    <!-- Main st/yles for this application -->
+    <link href="../s/css/stylev2.css" rel="stylesheet">
+    <link href="../s/css/spinkit.min.css" rel="stylesheet">
+    <!-- Styles required by this views -->
+    <link rel="stylesheet" type="text/css" href="../s/css/custom-styles.css">
+</head>
+<!-- Removed header-fixed class so that the header band renders after the logo -->
+
+<body class="app sidebar-nav sidebar-minimized aside-menu-fixed aside-menu-hidden">
+    <div id="videoDiv">
+        <div id="videoBlock" style="background-color: #006341">
+            <div id="videoLogo">
+                <img src="../s/img/riverbend-logo__home.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav navbar-nav d-md-down-none mr-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./calendar.html">Calendar</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./companies.html">Companies</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./trips.html">Trips</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./deals.html">Deals</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rmaps.html">RMaps</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./notes.html">Notes</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="./rdata.html">RData</a>
+            </li> 
+        </ul>
+        <ul class="nav navbar-nav ml-auto" style="font-size: 1em;">
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-bell"></i><span class="badge badge-pill badge-danger" id="hdrNotificationCount"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center" id="hdrNotificationTitle">
+                        <strong>No notifications</strong>
+                    </div>
+                    <div class="dropdown-header text-center" id="hdrNotificationContainer">
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-list"></i><span class="badge badge-pill badge-warning" id="hdrNumberOfTasks"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                    <div class="dropdown-header text-center"><strong>Your tasks</strong>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="loggedUserName">
+                    <span><i class="icon-user icons"></i></span> &nbsp; &nbsp; &nbsp;
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="./logout.html"><i class="fa fa-lock"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+        <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html"><i class="fa fa-home" ></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./calendar.html"><i class="fa fa-calendar" ></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./companies.html"><i class="fa fa-building-o"></i> Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html"><i class="fa fa-address-book-o"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trips.html"><i class="fa fa-plane"></i> Trips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./deals.html"><i class="fa fa-handshake-o"></i> Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rmaps.html"><i class="fa fa-map-o"></i> RMaps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./notes.html"><i class="fa fa-file-text-o"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rdata.html"><i class="fa fa-inbox"></i> RData</a>
+                    </li>          
+                </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+        </div>
+        <!-- Main content -->
+        <main class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Deal details</li>
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="#" style="font-size: 1em;" id="btnMasterSettings"><i class="icon-settings"></i> &nbsp;Settings</a>
+                    </div>
+                </li>
+            </ol>
+            <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+                <section>
+                    <p hidden id="userIsAdmin"></p>
+                    <p hidden id="loggedEmployeeId"></p>
+                    <input type="hidden" id="DN" name="DN" value="">
+                    <input type="hidden" id="DNA" name="DNA" value="">
+                    <input type="hidden" id="PDN" name="PDN" value="">
+                    <input type="hidden" id="NDN" name="NDN" value="">
+                    <input type="hidden" id="DF" name="DF" value="">
+                    <input type="hidden" id="DIID" name="DIID" value="">
+                    <article id="post-348" class="post-348 page type-page status-publish has-post-thumbnail">
+                        <div class="container-fluid" style="margin-top: 0px; padding-left: 0px; padding-right:0px;">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                    <div class="col-sm-4 text-left">
+                                        <button type="button" id="previousDeal" class="dealsPageButtons"><i class="glyphicon glyphicon-backward"></i>Previous Deal</button>
+                                    </div>
+                                    <div class="col-sm-4 text-center">
+                                        <button type="button" id="backToDeals" class="dealsPageButtons" onclick="window.location.href='./deals.html';" autofocus=true><i class="glyphicon glyphicon-list"></i>Deal List</button>
+                                    </div>
+                                    <div class="col-sm-4 text-right">
+                                        <button type="button" id="nextDeal" class="dealsPageButtons">Next Deal<i class="glyphicon glyphicon-forward"></i></button>
+                                    </div>
+                                    <div class="col-sm-12" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row" id="panelNotesEdit">
+                                <div class="col-sm-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading"><strong>Edit/add journal entries</strong></div>
+                                            <div class="panel-body">
+                                                <input type="hidden" id="editNoteId" name="editNoteId" value="">
+                                                <input type="hidden" id="editNoteSourceId" name="editNoteSourceId" value="">
+                                                <div class="form-group">
+                                                    <label for="editNoteType">Type:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon fa fa-arrow-right"></div>
+                                                        <select id="editNoteType" name="editNoteType" class="form-control">
+                                                            <option value="501" selected>Deal Journal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <label for="editNoteText">Notes:</label>
+                                                <div class="quill-editor" id="editNoteText">
+                                                </div>
+                                                <button class="btn btn-outline-secondary fa fa-microphone" type="button" id="btnNotesDictate"></button>
+                                                <div class="form-group">
+                                                    <label for="voiceNoteList">Voice notes:</label>
+                                                    <ul class="list-group" id="voiceNoteList">
+            
+                                                    </ul>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="editNoteFollowUpType">Follow up type:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon fa fa-arrow-right"></div>
+                                                        <select id="editNoteFollowUpType" name="editNoteFollowUpType" class="form-control">
+                                                            <option value="0">None</option>
+                                                            <option value="1">Phone call</option>
+                                                            <option value="2">Email</option>
+                                                            <option value="3">Deliverable</option>
+                                                            <option value="4">In person visit</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row" id="editNoteFollowUpDetailsDiv">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="editNoteFollowUpEmployee">Responsible party:</label>
+                                                            <div class="input-group">
+                                                                <select id="editNoteFollowUpEmployee" name="editNoteFollowUpEmployee" class="form-control" multiple data-placeholder=" " size="5">
+                                                                    <!-- To be filled by js script -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="editNoteFollowUp">Follow up date:</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-addon fa fa-calendar"></div>
+                                                                <input type="date" class="form-control" id="editNoteFollowUp" name="editNoteFollowUp" value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="editNoteAttendeeEmployee">Attending employees:</label>
+                                                    <div class="input-group">
+                                                        <select id="editNoteAttendeeEmployee" name="editNoteAttendeeEmployee" class="form-control" multiple data-placeholder=" " size="5">
+                                                            <!-- To be filled by js script -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="editNoteAttendeeContact">Attending contacts:</label>
+                                                    <div class="input-group">
+                                                        <select id="editNoteAttendeeContact" name="editNoteAttendeeContact" class="form-control" multiple data-placeholder=" " size="5">
+                                                            <!-- To be filled by js script -->
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div id="noteAttachmentSection">
+                                                    <div class="form-group panel panel-default">
+                                                        <label for="noteAttachments">Attachments:</label>
+                                                        <ul class="list-group" id="noteAttachments">
+            
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <form class="dropzone" id="FormDropZone2" method="post" encType="multipart/form-data">
+                                                            <input type="hidden" id="AttachmentNoteId" name="AttachmentNoteId" value="">
+                                                            <input type="hidden" id="AttachmentNoteTempPath" name="AttachmentNoteTempPath" value="">
+                                                            <p class="dz-message">
+                                                                <h5 class="text-center"><br><br>Drop your files here <i class="glyphicon glyphicon-cloud-upload"></i></h5>
+                                                                <h5 class="text-center text-success" aria-hidden="true"></h5>
+                                                            </p>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <label for="editNoteWhoCreated">Created by:</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="editNoteWhoCreated" name="editNoteWhoCreated" value="" readonly>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="editNoteWhoChanged">Last updated by:</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="editNoteWhoChanged" name="editNoteWhoChanged" value="" readonly>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        <button type="button" id="btnNoteSubmit" class="">Submit</button> &nbsp;
+                                                        <button type="button" id="btnNoteCancel" class="">Cancel</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <button type="button" id="btnNoteDelete" class="">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="panelDealDetails">
+                                <div class="row" >
+                                    <div class="col-sm-2" id="divLeftSideContainer">
+                                        <!-- These contents may get deleted by JS if no deal number gets provided -->
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <strong><a id="linkFileExplorer" href=''>File Explorer</a></strong>&nbsp;&nbsp;&nbsp; <a href="#" title="If this link is not working..." onclick="$('#fileExplorerHelpDialog').dialog( 'open' );"><i class="fa fa-question-circle"></i></a>
+                                                <br>
+                                            </div>
+                                            <div class="panel-body" id='folderExplorer'>
+                                                <!-- This section will be populated using ajax -->
+                                            </div>
+                                        </div>
+                                        <div class="panel-body" id="myDropFolder">
+                                            <form class="dropzone panel panel-default" id="FormDropZone" method="post" encType="multipart/form-data">
+                                                <input type="hidden" id="OpportunityGuid" name="OpportunityGuid" value="">
+                                                <input type="hidden" id="DealNumber" name="DealNumber" value="">
+                                                <input type="hidden" id="DealName" name="DealName" value="">
+                                                <input type="hidden" id="DropFolder" name="DropFolder" value="">
+                                                <input type="hidden" id="DealFolderFound" name="DealFolderFound" value="">
+                                                <p class="dz-message">
+                                                    <h5 class="text-center"><br><br>Drop your files here <i class="glyphicon glyphicon-cloud-upload"></i></h5>
+                                                    <h5 class="text-center text-success" aria-hidden="true"></h5>
+                                                </p>
+                                            </form>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <strong>OneNote</a></strong>
+                                            </div>
+                                            <div class="panel-body" id='folderExplorer'>
+                                                <a href="#oneNoteSection">Preview content</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- middle section (Deal, History, OneNote) -->
+                                    <div class="col-sm-4">
+                                        <div class="panel panel-default" id="panelDealView">
+                                            <div class="panel-heading"><strong>Deal</strong></div>
+                                            <div class="panel-body">
+                                                <div class="form-inline">
+                                                    <div id="alertSuccess" class="alert alert-success" role="alert">
+                                                        <strong>Success!</strong> Deal was updated successfully
+                                                    </div>
+                                                    <div id="viewModeContainer">
+                                                        <!-- populated dynamically -->
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-sm-6">
+                                                        <button type="button" id="copyLink" class="dealsPageButtons"><i class="glyphicon glyphicon-copy"></i> &nbsp; Copy deal link </div>
+                                                    <div class="col-sm-6">
+                                                        <button type="button" id="editMode" class="dealsPageButtons"><i class="glyphicon glyphicon-edit"></i> &nbsp; Edit </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- deal section  (Edit Mode s) -->
+                                        <div class="panel panel-default" id="panelDealEdit">
+                                            <div class="panel-heading"><strong>Edit Deal</strong></div>
+                                            <div class="panel-body">
+                                                <form id="FormData" action="/deals/dealdetails" method="post">
+                                                    <input type="hidden" id="entityName" name="entityName" value="">
+                                                    <input type="hidden" id="entityId" name="entityId" value="">
+                                                    <input type="hidden" id="target" name="target" value="">
+                                                    <input type="hidden" id="comment" name="comment" value="">
+                                                    <input type="hidden" id="mailId" name="mailId" value="">                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="dealNumber">Deal Number:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="dealNumber" name="dealNumber" readonly value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="dealName">Deal Name:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" maxlength="50" style="width:85%" autofocus id="dealName" name="dealName" value="" onkeypress="return (event.charCode = 32) || (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode > 47 && event.charCode < 58)"> <span id="dealNameResult" style="display:block;float:right;margin-top: 20px;margin-left: 5px;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="basinId">Basin:</label>
+                                                            <div class="input-group">
+                                                                <select id="basinId" name="basinId" id="basinId" class="form-control">
+                                                                    <option selected value="">Select &longrightarrow; </option>
+                                                                    <!-- Will get populated by js -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="companyId">Company Name:</label>
+                                                            <div class="input-group">
+                                                                <select id="companyId" name="companyId" id="companyId" class="form-control">
+                                                                    <option selected value="">Select &longrightarrow; </option>
+                                                                    <!-- Will get populated by js -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="state">State:</label>
+                                                            <div class="input-group">
+                                                                <select id="state" name="state" id="state" class="form-control" multiple data-placeholder=" ">
+                                                                    <option value="0"></option>
+                                                                    <!-- Will get populated by js -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="county">County:</label>
+                                                            <div class="input-group">
+                                                                <select id="countyId" name="countyId" id="countyId" class="form-control" multiple data-placeholder=" ">
+                                                                    <option value="0"></option>
+                                                                    <!-- Will get populated by js -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="status">Status:</label>
+                                                            <div class="input-group">
+                                                                <select id="status" name="status" class="form-control">
+                                                                    <!-- To be populated by JS -->
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <label for="status">Net Rate:
+                                                                    <br>
+                                                                    <div class="input-group">
+                                                                        <input type="text" id="netRate" name="netRate" class="form-control" value="">
+                                                                        <select id="netRateUnit" name="netRateUnit" class="form-control">
+                                                                            <option selected value="">select -></option>
+                                                                            <option value="BOPD">BOPD</option>
+                                                                            <option value="BOEPD">BOEPD</option>
+                                                                            <option value="MCFPD">MCFPD</option>
+                                                                            <option value="MMCFPD">MMCFPD</option>
+                                                                            <option value="MMCFEPD">MMCFEPD</option>
+                                                                        </select>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="display: none;" id="bidAccepted">
+                                                        <div class="col-sm-6">
+                                                            <label for="titleDefectDueDate">Title Defect Due Date:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="titleDefectDueDate"
+                                                                    placeholder="mm/dd/yyyy" name="titleDefectDueDate"
+                                                                    value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="closingDate">Closing Date:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="closingDate"
+                                                                    placeholder="mm/dd/yyyy" name="closingDate"
+                                                                    value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="dealSourceId">Deal Source:</label>
+                                                            <div class="input-group">
+                                                                <select id="dealSourceId" name="dealSourceId" class="form-control" data-placeholder=" ">
+
+                                                                </select>
+                                                            </div>
+                                                            <input type="hidden" id="dealSource" name="dealSource" value="">
+                                                            <input type="hidden" id="hidDealSourceId" name="hidDealSourceId" value="">
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="sellingPartyId">Selling Party:</label>
+                                                            <div class="input-group">
+                                                                <select id="sellingPartyId" name="sellingPartyId" class="form-control" data-placeholder=" ">
+                                                                </select>
+
+                                                            </div>
+                                                            <input type="hidden" id="sellingParty" name="sellingParty" value="">
+                                                            <input type="hidden" id="hidSellingPartyId" name="hidSellingPartyId" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="netAcres">Net Acres:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="netAcres" name="netAcres" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="netAcres">Net Royalty Acres:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="netRoyaltyAcres" name="netRoyaltyAcres" value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="depthsBenches">Depths & Benches:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="depthsBenches" name="depthsBenches" maxlength="100" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label for="ADFirmId">A&D Firm:</label>
+                                                            <div class="input-group">
+                                                                <select id="ADFirmId" name="ADFirmId" class="form-control" data-placeholder=" ">
+                                                                </select>
+                                                            </div>
+                                                            <input type="hidden" id="ADfirm" name="ADfirm" value="">
+                                                            <input type="hidden" id="hidADFirmId" name="hidADFirmId" value="">
+                                                            <input type="hidden" id="hidBidExternalCompanyId" name="hidBidExternalCompanyId" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <label for="bidDueDate">Bid Due Date:</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" id="bidDueDate" name="bidDueDate" readonly value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <input type="checkbox" name="isMapped" style="-webkit-appearance: checkbox;">
+                                                                <label for="isMapped">&nbsp;&nbsp;Is Mapped</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <label>Date sourced:&nbsp;&nbsp;</label>
+                                                                <p id="editDateSourced"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <label>Who entered:&nbsp;&nbsp;</label>
+                                                                <p id="editWhoEntered"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <label>Date changed:&nbsp;&nbsp;</label>
+                                                                <p id="editDateChanged"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-group">
+                                                                <label>Who changed:&nbsp;&nbsp;</label>
+                                                                <p id="editWhoChanged"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="input-group">
+                                                                <label for="description">Description:
+                                                                    <textarea rows="8" cols="80" class="form-control" id="description" name="description" maxlength="500"></textarea>
+                                                                </label>
+                                                                <input type="hidden" id="dropFolder" name="dropFolder" value="">
+                                                                <input type="hidden" id="opportunityGuid" name="opportunityGuid" value="">
+                                                                <input type="hidden" id="validDealName" name="validDealName" id="validDealName" value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <button type="button" id="submit" class="dealsPageButtons">Submit</button> &nbsp;&nbsp;&nbsp;
+                                                            <button type="button" id="cancel" class="dealsPageButtons">Cancel</button>
+                                                            <br>
+                                                            <br>
+                                                            <div id="loading">
+                                                                <div style="display:block;text-align:center"><img title="saving" src="../s/img/ajax-loading.gif"></div>
+                                                            </div>
+                                                            <div id="alertError" class="alert alert-danger" role="alert">
+                                                                <strong>Error!</strong> There was a problem updating this Deal, please try again
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- Deal journal -->
+                                        <div id="divDealJournalBidHistory">
+                                            <div class="panel panel-default" id="dibBidHistory">
+                                                <div class="panel-heading"><strong>Bid History</strong></div>
+                                                <div class="panel-body">
+                                                    <!-- <input type="button" id="btnBidCalculator" value="Update Bid" > -->
+                                                    <small>
+                                                        <table class="display compact" id="history" lenght="500">
+                                                            <thead>
+                                                            <tr>
+                                                                <th></th>
+                                                                <th>Amount</th>
+                                                                <th>NA</th>
+                                                                <th>$/AC</th>
+                                                                <th>Date</th>
+                                                                <th>User</th>
+                                                                <th>Bid History Id</th>
+                                                            </tr>
+                                                            </thead>
+                                                        </table>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelNotesView">
+                                                        <div class="panel-heading">
+                                                            <div class="row">
+                                                                <div class="col-md-4"><strong>Deal Journal</strong></div>
+                                                                <div class="col-sm-4"><button type="button" id="btnAddNote"><i class="fa fa-plus"></i> &nbsp;New entry</div>
+                                                                <div class="col-sm-4"><button type="button" id="btnJournalEmail"><i class="fa fa-envelope"></i> &nbsp;Send email</div>
+                                                            </div>                            
+                                                        </div>
+                                                        <div class="panel-body">
+                                                            <div id="notesContainer">
+                                                                <table id="tblNotes" class="table-sm table-striped table-hover" style="width:100%; height:100%;">
+                                                                    <thead class="thead-dark">
+                                                                        <td id="tNoteId">ID</td>
+                                                                        <td id="tNoteDate">Date</td>
+                                                                        <td id="tNoteTypeId">TypeId</td>
+                                                                        <td id="tNoteType">Type</td>
+                                                                        <td id="tNotes">Notes</td>
+                                                                        <td id="tFollowUp">Tasks</td>
+                                                                        <td id="tcompleted"></td>
+                                                                        <td id="temail"></td>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelNotesEmail">
+                                                        <div class="panel-heading"><strong>Send journal entry by email</strong></div>
+                                                        <div class="panel-body">
+                                                            <div id="alertSendNoteByEmail" class="alert alert-success" role="alert">
+                                                                    Sending email...
+                                                            </div>
+                                                            <input type="hidden" id="emailNoteId" name="emailNoteId" value="">
+                                                            <div class="form-group">
+                                                                <span style="float:left" ><label for="emailNoteRecipients">Recipients:</label></span>
+                                                                <span style="float:right"><a href="#" id="selectAllEmployeesNR" >Select All</a></span>
+                                                                <div class="input-group">
+                                                                    <select id="emailNoteRecipients" name="emailNoteRecipients" class="form-control" multiple data-placeholder=" " size="5">
+                                                                        <!-- To be populated by JS -->
+                                                                    </select>
+                                                                </div>                                    
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnNoteEmailSend" class="" >Submit</button> &nbsp;
+                                                                    <button type="button" id="btnNoteEmailCancel" class="" >Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelDealJournalEmail">
+                                                        <div class="panel-heading"><strong>Send full journal by email</strong></div>
+                                                        <div class="panel-body">
+                                                            <div id="alertSendJournalByEmail" class="alert alert-success" role="alert">
+                                                                Sending email...
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <span style="float:left" ><label for="emailJournalRecipients">Recipients:</label></span>
+                                                                <span style="float:right"><a href="#" id="selectAllEmployees" >Select All</a></span>
+                                                                <div class="input-group">
+                                                                    <select id="emailJournalRecipients" name="emailJournalRecipients" class="form-control" multiple data-placeholder=" " size="5">
+                                                                        <!-- This will get populated by Javascript -->
+                                                                    </select>
+                                                                </div>                                    
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input class="form-check-input" type="checkbox" value="" id="chkSendToCompanyEmail">
+                                                                <label class="form-check-label" for="chkSendToCompanyEmail">&nbsp;&nbsp;&nbsp;&nbsp;   Send copy to Teams Channel.</label>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnJournalEmailSend" class="" >Send email</button> &nbsp;
+                                                                    <button type="button" id="btnJournalEmailCancel" class="" >Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default" id="panelNotesTask">
+                                                        <div class="panel-heading"><strong>Journal task status update</strong></div>
+                                                        <div class="panel-body">
+                                                            <input type="hidden" id="taskNoteId" name="taskNoteId" value="">
+                                                            <div class="form-group">
+                                                                <span style="float:left" ><label for="taskStatus">Current status:</label></span>
+                                                                <div class="input-group">
+                                                                    <select id="taskStatus" name="taskStatus" class="form-control" data-placeholder="">
+                                                                        <option value="0">Pending</option>
+                                                                        <option value="1">Complete</option>
+                                                                    </select>
+                                                                </div>                                    
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md">
+                                                                    <button type="button" id="btnNoteTaskSend" class="" >Submit</button> &nbsp;
+                                                                    <button type="button" id="btnNoteTaskCancel" class="" >Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" id="divRMaps">
+                                        <!-- Note attachment panel -->
+                                        <div class="panel panel-default" id="panelAttachNote" style="display:none">
+                                            <div class="panel-heading"><strong>Important</strong></div>
+                                            <div class="panel-body">
+                                                <p><big><i class="fa fa-paperclip" aria-hidden="true"></i></big> You have requested to
+                                                    assign an email and/or attachments to this new Deal's notes, <a href="#"
+                                                        id="removeAttachmentNote">click here if you want to discard the note and
+                                                        attachments</a></p>
+                                            </div>
+                                        </div>
+                                                               
+                                        <!-- This will get populated by JS -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" id="divOneNote">
+                                        <!-- One Note section-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div id="bidCalculator" title="Bid Calculator">
+                        <form>
+                            <div class="form-group">
+                                <label for="popDollarsPerAcre">Dollars per acre</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">$</div>
+                                    <input type="text" name="popDollarsPerAcre" id="popDollarsPerAcre" value="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="popNetAcres">Net acres</label>
+                                <input type="text" name="popNetAcres" id="popNetAcres" value="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="popBidAmount">Bid amount</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">$</div>
+                                    <input type="text" name="popBidAmount" id="popBidAmount" value="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="popBidDate">Bid Date</label>
+                                <input type="text" class="form-control" id="popBidDate" name="popBidDate" readonly value="">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="winningBid" title="Winning Bid">
+                        <form>
+                            <div class="form-group">
+                                <label for="popWinBidDollarsPerAcre">Dollars per acre</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">$</div>
+                                    <input type="text" name="popWinBidDollarsPerAcre" id="popWinBidDollarsPerAcre" value="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="popWinBidNetAcres">Net acres</label>
+                                <input type="text" name="popWinBidNetAcres" id="popWinBidNetAcres" value="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="popWinBidAmount">Winning Bid amount</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">$</div>
+                                    <input type="text" name="popWinBidAmount" id="popWinBidAmount" value="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="popWinBidDate">Winning Bid Date</label>
+                                <input type="text" class="form-control" id="popWinBidDate" name="popWinBidDate" readonly value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="popWinBidExternalCompanyId">Winning Company</label>
+                                <select id="popWinBidExternalCompanyId" name="popWinBidExternalCompanyId" class="form-control" data-placeholder=" ">
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="NewDealNotification" title="New Deal Created">
+                        <br>
+                        <br>
+                        <p>Deal {{mDeal.[0].DealNumber}} {{mDeal.[0].DealName}} created.</p>
+                        <p><b>Please DO NOT rename the folder.</b> Deal Name {{mDeal.[0].DealName}} is searchable.
+                            <br><b>Comments Header will display Deal Name.</b> Right click on Header bar to add Comments column.</p>
+                        <p>Folder shortcut created in:
+                            <br> {{lnkXPath}}</p>
+                        <p><img src="../s/img/RDeals.jpg">
+                            <input type="hidden" id="newRecord" value="{{newrecord}}">
+                    </div>
+
+                    <div id="fileExplorerHelpDialog">
+                        <br>
+                        <br>
+                        <p>If this link is not working please install YAMMM software update allowing browser to open Window Explorer:
+                            <br>
+                            <br>
+                            <a href="/deals/!/software/rdeals">download YAMMM software</a>
+                        </p>
+
+                    </div>
+
+                    <iframe src='./post.html' name="postFrame" id="postFrame" border="0" width="1" height="1"></iframe>
+                </section>
+
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+        <aside class="aside-menu">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+                        <i class="icon-list"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                        <i class="icon-speech"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                        <i class="icon-settings"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="timeline" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="messages" role="tabpanel">
+                </div>
+                <div class="tab-pane p-3" id="settings" role="tabpanel">
+                </div>
+        </aside>
+
+        </div>
+        <footer class="app-footer">
+            <span class="ml-auto">Powered by <a href="https://www.yammm.com/">Yammm</a></span>
+        </footer>
+        <script>
+            // This is required to enable JQuery on Electron, when NodeJS integration is enabled, and
+            // we need it for IPC
+            if (typeof module === 'object') {
+                window.module = module;
+                module = undefined;
+            }
+        </script>
+        <!-- Bootstrap and necessary plugins -->
+        <script src="../s/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../s/popper/umd/popper.min.js"></script>
+        <!--<script type="text/javascript" src="/s/bootstrap/js/bootstrap.min.js"></script> -->
+        <script type="text/javascript" src="../s/bootstrap/js/bootstap.3.4.0..js"></script>
+        <script type="text/javascript" src="../s/js/jquery.datatables.min.js"></script>
+        <script type="text/javascript" src="../s/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="../s/js/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="../s/js/moment.min.js"></script>
+        <script type="text/javascript" src="../s/js/mic-recorder-to-mp3.js"></script>
+        <script type="text/javascript" src="../s/js/jquery-te-1.4.0.min.js"></script>
+        <!-- Plugins and scripts required by all views -->
+        <script src="../s/js/chart.min.js"></script>
+        <!-- Template scripts -->
+        <script src="../js/app.js"></script>
+        <!-- Main scripts -->
+        <script src="../s/js/chosen.jquery.js"></script>
+        <script src="../s/js/dropzone.js"></script>
+        <script src="../js/views/dealdetails.js"></script>
+</body>
+
+</html>

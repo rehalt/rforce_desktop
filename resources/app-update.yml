@@ -1,0 +1,4 @@
+owner: rehalt
+repo: rforce_desktop
+provider: github
+updaterCacheDirName: rforce_desktop-updater

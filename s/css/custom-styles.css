@@ -1,0 +1,221 @@
+.label-danger {
+    background-color: #d9534f;
+}
+
+.label-warning {
+    background-color: #f0ad4e;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+th.th-text-align-center,
+td.td-text-align-center {
+    text-align: center;
+}
+
+#calendar {
+    max-width: 90%;
+    min-width: 750px;
+    margin: 0 auto;
+}        
+
+input.text { 
+    margin-bottom:12px;
+    width:95%; 
+    padding: .4em;
+}
+
+input.date {
+    margin-bottom:12px;
+    width:55%;
+    padding: .4em;
+}
+
+input.time { 
+    margin-bottom:12px; 
+    width:40%; 
+    padding: .4em; 
+}
+
+fieldset { 
+    padding:0;
+    border:0;
+    margin-top:25px;
+}
+
+div#users-contain {
+    width: 350px;
+    margin: 20px 0;
+}
+
+div#users-contain table {
+    margin: 1em 0; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div#users-contain table td, 
+div#users-contain table th {
+    border: 1px solid #eee;
+    padding: .6em 10px; 
+    text-align: left; 
+}
+
+.ui-dialog .ui-state-error { 
+    padding: .3em;
+}
+
+.validateTips {
+    border: 1px solid transparent; 
+    padding: 0.3em;
+}
+
+#videoDiv {
+    width: 100%; 
+    height: 70px; 
+    position: relative; 
+    overflow: hidden;
+    background-color:  #006341;
+}
+
+#videoBlock {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoLogo {width: 100%; 
+            height:100%; 
+            position: absolute; 
+            top: 0; 
+            left: 0;
+}
+
+#videoLogo *{
+    padding:0.4em; 
+    margin:0;}
+
+body {
+    font-size: 1.4rem;
+}
+
+small,
+.small {
+    font-size: 85%;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+.input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.2625rem + 2px);
+}
+
+/* Google maps */
+.googleGeoMap{
+    width: 100%; 
+    height: 300px; 
+    float: left; 
+    border: 1px solid rgba(204, 102, 0, .50);
+}
+
+.btn-outline-secondary{
+    font-size: 1em;
+}
+
+#calendar {
+    max-width: 100%;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.form-group .color-box {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+
+.voice-note-button-recording{
+    color: maroon;
+}
+
+.voice-note-button-idle{
+    color: maroon;
+}
+
+body {
+    background-color: #DDDDDD !important;
+}
+
+.tab-content {
+    background-color: #DDDDDD !important;
+}
+
+/* Rich edit editor (notes) */
+.quill-editor {
+    height: 350px
+}
